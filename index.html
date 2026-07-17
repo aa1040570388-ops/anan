@@ -1,0 +1,2952 @@
+<!DOCTYPE html>
+
+<!-- saved from url=(0269)file:///E:/xwechat_files/wxid_moy3emdrdg9121_89d5/msg/file/2026-07/%E5%8C%BB%E7%BE%8E%E4%BB%B7%E6%A0%BC%E8%A1%A8_PDF%E5%AE%8C%E6%95%B4%E5%88%9D%E6%AD%A5%E6%95%B4%E7%90%86_%E5%8F%AF%E7%9B%B4%E6%8E%A5%E6%96%B0%E5%BB%BA%E7%A7%BB%E5%8A%A8%E7%BC%96%E8%BE%91%E7%89%88_V4.html -->
+<html lang="zh-CN"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#f7f5f1" name="theme-color"/>
+<meta content="中韩医美施术项目与价格一览，可搜索、分类查看并展开详细价格。" name="description"/>
+<title>医美施术价格表</title>
+<style>
+:root {
+  --bg: #f7f5f1;
+  --paper: #fffefa;
+  --ink: #181817;
+  --muted: #716f69;
+  --line: #dedbd4;
+  --line-soft: #ebe8e1;
+  --accent: #20201e;
+  --accent-soft: #efede7;
+  --shadow: 0 12px 35px rgba(26, 25, 22, 0.07);
+  --radius: 18px;
+  --page: 1180px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(255,255,255,.95), transparent 32rem),
+    var(--bg);
+  color: var(--ink);
+  font-family: Inter, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+button, input { font: inherit; }
+button { color: inherit; }
+.site-shell { min-height: 100vh; }
+
+.hero {
+  padding: 70px 22px 48px;
+  background: linear-gradient(180deg, #fff 0%, rgba(255,255,255,.5) 100%);
+  border-bottom: 1px solid rgba(220, 217, 209, .8);
+}
+.hero__inner { max-width: var(--page); margin: 0 auto; text-align: center; }
+.eyebrow {
+  margin: 0 0 15px;
+  color: #85827a;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 12px;
+  letter-spacing: .32em;
+}
+.hero h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", "Noto Serif SC", serif;
+  font-weight: 500;
+  font-size: clamp(30px, 5vw, 54px);
+  letter-spacing: .09em;
+}
+.hero__subtitle { margin: 18px 0 0; color: var(--muted); font-size: 14px; }
+.hero__rule { width: 46px; height: 1px; margin: 28px auto 0; background: var(--ink); }
+
+.toolbar-wrap {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: rgba(247,245,241,.94);
+  border-bottom: 1px solid rgba(215,212,204,.88);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+.toolbar { max-width: var(--page); margin: 0 auto; padding: 15px 22px 10px; display: flex; align-items: center; gap: 18px; }
+.search {
+  min-width: 0;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.85);
+  border-radius: 999px;
+  padding: 0 14px;
+  transition: border-color .2s, box-shadow .2s, background .2s;
+}
+.search:focus-within { border-color: #8d8a82; background: #fff; box-shadow: 0 0 0 4px rgba(40,39,36,.06); }
+.search svg { width: 18px; height: 18px; fill: none; stroke: #77746d; stroke-width: 1.8; flex: 0 0 auto; }
+.search input { width: 100%; min-width: 0; height: 42px; border: 0; outline: 0; background: transparent; color: var(--ink); }
+.search input::placeholder { color: #9a978f; }
+.search__clear { border: 0; background: transparent; color: #88857e; font-size: 22px; line-height: 1; cursor: pointer; padding: 2px 3px; }
+.toolbar__meta { display: flex; align-items: center; gap: 14px; white-space: nowrap; color: var(--muted); font-size: 13px; }
+.text-button { border: 0; border-bottom: 1px solid #aaa69d; background: transparent; padding: 2px 0; cursor: pointer; }
+
+.category-nav {
+  max-width: var(--page);
+  margin: 0 auto;
+  padding: 0 22px 13px;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  scroll-snap-type: x proximity;
+}
+.category-nav::-webkit-scrollbar { display: none; }
+.category-button {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.64);
+  border-radius: 999px;
+  padding: 8px 15px;
+  color: #5e5b55;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all .18s ease;
+}
+.category-button:hover { border-color: #aaa69d; background: #fff; }
+.category-button.is-active { border-color: var(--accent); background: var(--accent); color: #fff; }
+
+.catalog { max-width: var(--page); margin: 0 auto; padding: 42px 22px 70px; }
+.section { scroll-margin-top: 132px; margin-bottom: 54px; }
+.section[hidden] { display: none; }
+.section__head { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; margin: 0 0 20px; }
+.section__title-wrap { min-width: 0; }
+.section__kicker { margin: 0 0 6px; color: #96928a; font-family: Georgia, serif; font-size: 11px; letter-spacing: .22em; text-transform: uppercase; }
+.section__title { margin: 0; font-family: Georgia, "Noto Serif SC", serif; font-weight: 500; font-size: clamp(24px, 3vw, 34px); }
+.section__notice { margin: 7px 0 0; color: var(--muted); font-size: 13px; }
+.section__count { flex: 0 0 auto; margin-top: 8px; color: #98958d; font-size: 12px; }
+
+.card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.price-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: rgba(255,254,250,.92);
+  border-radius: var(--radius);
+  box-shadow: 0 2px 0 rgba(255,255,255,.72) inset;
+  transition: border-color .2s, transform .2s, box-shadow .2s;
+}
+.price-card:hover { border-color: #c8c4bb; box-shadow: var(--shadow); transform: translateY(-1px); }
+.price-card.is-open { border-color: #aaa69d; background: #fff; }
+.price-card__button {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  padding: 20px 20px 16px;
+  cursor: pointer;
+}
+.price-card__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.price-card__text { min-width: 0; }
+.price-card__name { display: block; font-size: 17px; font-weight: 650; line-height: 1.45; }
+.price-card__tag { display: inline-block; margin-left: 7px; padding: 2px 7px; border-radius: 999px; background: #efede7; color: #716e67; font-size: 10px; vertical-align: 2px; }
+.price-card__desc { display: block; min-height: 20px; margin-top: 7px; color: var(--muted); font-size: 13px; line-height: 1.55; }
+.price-card__price { flex: 0 0 auto; font-family: Georgia, "Times New Roman", serif; font-size: 19px; white-space: nowrap; }
+.price-card__price small { margin-left: 4px; color: #817e77; font-family: inherit; font-size: 12px; }
+.price-card__expand { display: flex; align-items: center; justify-content: space-between; margin-top: 15px; padding-top: 14px; border-top: 1px solid var(--line-soft); color: #6f6c65; font-size: 12px; }
+.price-card__chevron { width: 8px; height: 8px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(45deg); transition: transform .2s ease; margin: -4px 3px 0 12px; }
+.price-card.is-open .price-card__chevron { transform: rotate(225deg); margin-top: 4px; }
+.price-card__details { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .25s ease; }
+.price-card.is-open .price-card__details { grid-template-rows: 1fr; }
+.price-card__details-inner { min-height: 0; overflow: hidden; }
+.details-pad { padding: 0 20px 20px; }
+.price-table { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 12px; }
+.price-table th { padding: 11px 8px; background: #f3f1ec; color: #77746d; font-weight: 500; text-align: left; }
+.price-table th:first-child { border-radius: 9px 0 0 9px; }
+.price-table th:last-child { border-radius: 0 9px 9px 0; text-align: right; }
+.price-table td { padding: 11px 8px; border-bottom: 1px solid var(--line-soft); vertical-align: top; line-height: 1.45; overflow-wrap: anywhere; }
+.price-table td:last-child { text-align: right; font-weight: 600; }
+.price-table tr:last-child td { border-bottom: 0; }
+.price-card__note { margin: 10px 0 0; padding: 10px 12px; border-left: 2px solid #a9a59c; background: #f5f3ee; color: #6f6c65; font-size: 11px; line-height: 1.55; }
+.price-card.no-details .price-card__expand { visibility: hidden; }
+.price-card.no-details .price-card__button { cursor: default; }
+
+.empty-state { max-width: 620px; margin: 70px auto 100px; padding: 48px 24px; text-align: center; }
+.empty-state__icon { color: #8d8981; font-size: 48px; }
+.empty-state h2 { margin: 14px 0 8px; font-family: Georgia, serif; font-weight: 500; }
+.empty-state p { color: var(--muted); }
+.primary-button { margin-top: 14px; border: 0; border-radius: 999px; background: var(--accent); color: #fff; padding: 11px 20px; cursor: pointer; }
+
+.footer { padding: 36px 22px 52px; border-top: 1px solid var(--line); text-align: center; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.footer__small { margin-top: 6px; color: #97938a; }
+.footer code { border: 1px solid var(--line); border-radius: 5px; background: #fff; padding: 1px 5px; }
+.back-to-top { position: fixed; right: max(18px, env(safe-area-inset-right)); bottom: max(18px, env(safe-area-inset-bottom)); z-index: 20; width: 44px; height: 44px; border: 1px solid #c8c4bb; border-radius: 50%; background: rgba(255,255,255,.9); box-shadow: 0 10px 25px rgba(0,0,0,.09); cursor: pointer; opacity: 0; pointer-events: none; transform: translateY(8px); transition: .2s; }
+.back-to-top.is-visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+
+@media (max-width: 760px) {
+  .hero { padding: 48px 18px 34px; }
+  .hero h1 { letter-spacing: .055em; }
+  .toolbar { padding: 12px 14px 8px; display: block; }
+  .toolbar__meta { margin-top: 9px; justify-content: space-between; padding: 0 3px; }
+  .category-nav { padding: 0 14px 11px; }
+  .catalog { padding: 30px 14px 60px; }
+  .section { scroll-margin-top: 148px; margin-bottom: 42px; }
+  .section__head { margin-bottom: 15px; }
+  .section__count { display: none; }
+  .card-grid { grid-template-columns: 1fr; gap: 11px; }
+  .price-card__button { padding: 17px 17px 14px; }
+  .details-pad { padding: 0 17px 17px; }
+  .price-card__name { font-size: 16px; }
+  .price-card__price { font-size: 18px; }
+}
+
+@media (min-width: 1180px) {
+  .card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; transition: none !important; }
+}
+
+</style>
+
+
+
+</head>
+<body>
+<div class="site-shell">
+<header class="hero">
+<div class="hero__inner">
+<p class="eyebrow" id="brandEyebrow">26.06.23 · 中文（简体）</p>
+<h1 id="brandTitle">医美施术价格表</h1>
+<p class="hero__subtitle" id="brandSubtitle">中韩医美施术项目与价格一览</p>
+<div aria-hidden="true" class="hero__rule"></div>
+</div>
+</header>
+<div class="toolbar-wrap" id="toolbarWrap">
+<div class="toolbar">
+<label class="search" for="searchInput">
+<svg aria-hidden="true" viewbox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"></path></svg>
+<input autocomplete="off" id="searchInput" placeholder="搜索项目、设备、品牌或部位" type="search"/>
+<button aria-label="清除搜索" class="search__clear" hidden="" id="clearSearch" type="button">×</button>
+</label>
+<div class="toolbar__meta">
+<span id="resultCount">85 个项目</span>
+<button class="text-button" id="collapseAll" type="button">收起全部</button>
+</div>
+</div>
+<nav aria-label="项目分类" class="category-nav" id="categoryNav"><button class="category-button is-active" data-category="all" type="button">全部</button><button class="category-button" data-category="pigment-laser" type="button">色素血管激光</button><button class="category-button" data-category="acne-scar" type="button">痘痘疤痕毛孔</button><button class="category-button" data-category="regeneration" type="button">水光胶原再生</button><button class="category-button" data-category="skin-care" type="button">皮肤管理</button><button class="category-button" data-category="lifting" type="button">提升紧致</button><button class="category-button" data-category="body-contour" type="button">身体塑形溶脂</button><button class="category-button" data-category="botox" type="button">肉毒素</button><button class="category-button" data-category="filler" type="button">玻尿酸填充</button><button class="category-button" data-category="thread-lifting" type="button">线雕</button><button class="category-button" data-category="hair-removal" type="button">脱毛</button></nav>
+</div>
+<main aria-live="polite" class="catalog" id="catalog"><section class="section" data-ci="0" data-section="pigment-laser" id="section-pigment-laser">
+
+<div class="section__head"><div class="section__title-wrap"><p class="section__kicker">Pigment &amp; Vascular Laser</p><h2 class="section__title"><span>✦</span> <span>色素 · 血管 · 洗纹</span></h2><p class="section__notice">根据上传 PDF（页面标注 26.06.23）初步归类；价格、次数与中文名称请逐项检查。</p></div><span class="section__count">16 项</span></div>
+<div class="card-grid"><article class="price-card" data-card="" data-ci="0" data-ii="0" data-search="色素血管激光色素·血管·洗纹pigment&amp;vascularlaser根据上传pdf（页面标注26.06.23）初步归类；价格、次数与中文名称请逐项检查。四种激光套餐点击填写规格或韩文名称₩450,000excel-v3激光₩0enlighten激光/皮秒激光₩0starwalker激光（星极秒）₩0vbeam染料激光₩0">
+
+<button aria-controls="details-pigment-laser-0" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>四种激光套餐</span></span><span class="price-card__desc">点击填写规格或韩文名称</span></span><span class="price-card__price"><span>₩450,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-pigment-laser-0"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>Excel-V3 激光</td><td>₩0</td></tr><tr><td>Enlighten 激光 / 皮秒激光</td><td>₩0</td></tr><tr><td>StarWalker 激光（星极秒）</td><td>₩0</td></tr><tr><td>Vbeam 染料激光</td><td>₩0</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="0" data-ii="1" data-search="色素血管激光色素·血管·洗纹pigment&amp;vascularlaser根据上传pdf（页面标注26.06.23）初步归类；价格、次数与中文名称请逐项检查。excel-v3激光엑셀v3₩169,000excel-v3激光1次₩169,000excel-v3+aileen/mosaic激光1次₩189,000">
+
+<button aria-controls="details-pigment-laser-1" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>Excel-V3 激光</span></span><span class="price-card__desc">엑셀V3</span></span><span class="price-card__price"><span>₩169,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-pigment-laser-1"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>Excel-V3 激光 1次</td><td>₩169,000</td></tr><tr><td>Excel-V3 + Aileen / Mosaic 激光 1次</td><td>₩189,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="0" data-ii="2" data-search="色素血管激光色素·血管·洗纹pigment&amp;vascularlaser根据上传pdf（页面标注26.06.23）初步归类；价格、次数与中文名称请逐项检查。enlighten激光/皮秒激光인라이튼/피코웨이₩149,000enlighten激光1次₩149,000enlighten+aileen/mosaic激光1次₩169,000">
+
+<button aria-controls="details-pigment-laser-2" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>Enlighten 激光 / 皮秒激光</span></span><span class="price-card__desc">인라이튼 / 피코웨이</span></span><span class="price-card__price"><span>₩149,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-pigment-laser-2"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>Enlighten 激光 1次</td><td>₩149,000</td></tr><tr><td>Enlighten + Aileen / Mosaic 激光 1次</td><td>₩169,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="0" data-ii="3" data-search="色素血管激光色素·血管·洗纹pigment&amp;vascularlaser根据上传pdf（页面标注26.06.23）初步归类；价格、次数与中文名称请逐项检查。starwalker激光（星极秒）스타워커₩129,000starwalker色素激光1次₩129,000">
+
+<button aria-controls="details-pigment-laser-3" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>StarWalker 激光（星极秒）</span></span><span class="price-card__desc">스타워커</span></span><span class="price-card__price"><span>₩129,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-pigment-laser-3"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>StarWalker 色素激光 1次</td><td>₩129,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card no-details" data-card="" data-ci="0" data-ii="4" data-search="色素血管激光色素·血管·洗纹pigment&amp;vascularlaser根据上传pdf（页面标注26.06.23）初步归类；价格、次数与中文名称请逐项检查。vbeam染料激光브이빔₩179,000">
+
+<button aria-disabled="true" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>Vbeam 染料激光</span></span><span class="price-card__desc">브이빔</span></span><span class="price-card__price"><span>₩179,000</span></span></span>
+<span class="price-card__expand"><span>固定价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-pigment-laser-4"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="0" data-ii="5" data-search="色素血管激光色素·血管·洗纹pigment&amp;vascularlaser根据上传pdf（页面标注26.06.23）初步归类；价格、次数与中文名称请逐项检查。洗眉/洗眼线아이라인·눈썹문신제거₩79,0001次₩79,0003次₩225,0005次₩365,000">
+
+<button aria-controls="details-pigment-laser-5" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>洗眉 / 洗眼线</span></span><span class="price-card__desc">아이라인 · 눈썹문신 제거</span></span><span class="price-card__price"><span>₩79,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-pigment-laser-5"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1次</td><td>₩79,000</td></tr><tr><td>3次</td><td>₩225,000</td></tr><tr><td>5次</td><td>₩365,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="0" data-ii="6" data-search="色素血管激光色素·血管·洗纹pigment&amp;vascularlaser根据上传pdf（页面标注26.06.23）初步归类；价格、次数与中文名称请逐项检查。洗唇입술문신제거₩99,0001次₩99,0003次₩289,0005次₩469,000">
+
+<button aria-controls="details-pigment-laser-6" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>洗唇</span></span><span class="price-card__desc">입술문신 제거</span></span><span class="price-card__price"><span>₩99,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-pigment-laser-6"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1次</td><td>₩99,000</td></tr><tr><td>3次</td><td>₩289,000</td></tr><tr><td>5次</td><td>₩469,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="0" data-ii="7" data-search="色素血管激光色素·血管·洗纹pigment&amp;vascularlaser根据上传pdf（页面标注26.06.23）初步归类；价格、次数与中文名称请逐项检查。洗纹身彩色、黑白同价·문신제거₩79,0001元硬币大小₩79,000">
+
+<button aria-controls="details-pigment-laser-7" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>洗纹身</span></span><span class="price-card__desc">彩色、黑白同价 · 문신 제거</span></span><span class="price-card__price"><span>₩79,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-pigment-laser-7"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1元硬币大小</td><td>₩79,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="0" data-ii="8" data-search="色素血管激光色素·血管·洗纹pigment&amp;vascularlaser根据上传pdf（页面标注26.06.23）初步归类；价格、次数与中文名称请逐项检查。祛斑针기미주사₩20,0000.5cc₩20,0001cc₩30,000全脸3cc₩50,000">
+
+<button aria-controls="details-pigment-laser-8" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>祛斑针</span></span><span class="price-card__desc">기미주사</span></span><span class="price-card__price"><span>₩20,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-pigment-laser-8"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>0.5CC</td><td>₩20,000</td></tr><tr><td>1CC</td><td>₩30,000</td></tr><tr><td>全脸 3CC</td><td>₩50,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="0" data-ii="9" data-search="色素血管激光色素·血管·洗纹pigment&amp;vascularlaser根据上传pdf（页面标注26.06.23）初步归类；价格、次数与中文名称请逐项检查。点痣점제거·按大小决定₩11,0001个₩11,000～30,000全脸₩200,000～300,000">
+
+<button aria-controls="details-pigment-laser-9" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>点痣</span></span><span class="price-card__desc">점 제거 · 按大小决定</span></span><span class="price-card__price"><span>₩11,000</span><small>起</small></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-pigment-laser-9"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1个</td><td>₩11,000～30,000</td></tr><tr><td>全脸</td><td>₩200,000～300,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="0" data-ii="10" data-search="色素血管激光色素·血管·洗纹pigment&amp;vascularlaser根据上传pdf（页面标注26.06.23）初步归类；价格、次数与中文名称请逐项检查。agnes激光아그네스₩16,000agnes激光1个₩16,000agnes激光1部位1次₩140,000全脸agnes激光1次₩210,000">
+
+<button aria-controls="details-pigment-laser-10" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>Agnes 激光</span></span><span class="price-card__desc">아그네스</span></span><span class="price-card__price"><span>₩16,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-pigment-laser-10"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>Agnes 激光 1个</td><td>₩16,000</td></tr><tr><td>Agnes 激光 1部位 1次</td><td>₩140,000</td></tr><tr><td>全脸 Agnes 激光 1次</td><td>₩210,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card no-details" data-card="" data-ci="0" data-ii="11" data-search="色素血管激光色素·血管·洗纹pigment&amp;vascularlaser根据上传pdf（页面标注26.06.23）初步归类；价格、次数与中文名称请逐项检查。飞梭fraxel激光프락셀₩109,000">
+
+<button aria-disabled="true" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>飞梭 Fraxel 激光</span></span><span class="price-card__desc">프락셀</span></span><span class="price-card__price"><span>₩109,000</span></span></span>
+<span class="price-card__expand"><span>固定价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-pigment-laser-11"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card no-details" data-card="" data-ci="0" data-ii="12" data-search="色素血管激光色素·血管·洗纹pigment&amp;vascularlaser根据上传pdf（页面标注26.06.23）初步归类；价格、次数与中文名称请逐项检查。fraxel+intracel프락셀+인트라셀₩232,000">
+
+<button aria-disabled="true" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>Fraxel + Intracel</span></span><span class="price-card__desc">프락셀 + 인트라셀</span></span><span class="price-card__price"><span>₩232,000</span></span></span>
+<span class="price-card__expand"><span>固定价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-pigment-laser-12"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card no-details" data-card="" data-ci="0" data-ii="13" data-search="色素血管激光色素·血管·洗纹pigment&amp;vascularlaser根据上传pdf（页面标注26.06.23）初步归类；价格、次数与中文名称请逐项检查。agnes激光眼下脂肪重排아그네스눈밑지방재배치₩310,000">
+
+<button aria-disabled="true" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>Agnes激光 眼下脂肪重排</span></span><span class="price-card__desc">아그네스 눈밑 지방 재배치</span></span><span class="price-card__price"><span>₩310,000</span></span></span>
+<span class="price-card__expand"><span>固定价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-pigment-laser-13"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="0" data-ii="14" data-search="色素血管激光色素·血管·洗纹pigment&amp;vascularlaser根据上传pdf（页面标注26.06.23）初步归类；价格、次数与中文名称请逐项检查。汗管瘤/扁平疣/粟丘疹去除한관종·비립종·편평사마귀제거₩199,000全脸agnes激光₩199,000全脸co2激光₩300,000局部/单部位co2激光₩200,000起局部价格在pdf中标注为200,000起。">
+
+<button aria-controls="details-pigment-laser-14" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>汗管瘤 / 扁平疣 / 粟丘疹去除</span></span><span class="price-card__desc">한관종 · 비립종 · 편평사마귀 제거</span></span><span class="price-card__price"><span>₩199,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-pigment-laser-14"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>全脸 Agnes 激光</td><td>₩199,000</td></tr><tr><td>全脸 CO2 激光</td><td>₩300,000</td></tr><tr><td>局部 / 单部位 CO2 激光</td><td>₩200,000 起</td></tr></tbody></table><p class="price-card__note">局部价格在 PDF 中标注为 200,000 起。</p></div></div></div></article><article class="price-card" data-card="" data-ci="0" data-ii="15" data-search="色素血管激光色素·血管·洗纹pigment&amp;vascularlaser根据上传pdf（页面标注26.06.23）初步归类；价格、次数与中文名称请逐项检查。飞梭fraxel+再希斯intracel激光인트라셀₩129,000飞梭fraxel+再希斯intracel1次₩129,000探头₩33,000">
+
+<button aria-controls="details-pigment-laser-15" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>飞梭fraxel + 再希斯 Intracel 激光</span></span><span class="price-card__desc">인트라셀</span></span><span class="price-card__price"><span>₩129,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-pigment-laser-15"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>飞梭fraxel + 再希斯Intracel 1次</td><td>₩129,000</td></tr><tr><td>探头</td><td>₩33,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article></div>
+
+</section><section class="section" data-ci="1" data-section="acne-scar" id="section-acne-scar">
+
+<div class="section__head"><div class="section__title-wrap"><p class="section__kicker">Acne &amp; Scar</p><h2 class="section__title"><span>✦</span> <span>痘痘 · 疤痕 · 毛孔</span></h2><p class="section__notice">点击这里添加大标题说明</p></div><span class="section__count">7 项</span></div>
+<div class="card-grid"><article class="price-card" data-card="" data-ci="1" data-ii="0" data-search="痘痘疤痕毛孔痘痘·疤痕·毛孔acne&amp;scar黄金ptt골드ptt₩450,000黄金ptt1次₩450,000acnepackage₩1,290,000acnepackage：黄金ptt3次+vbeam激光3次+agnes激光1次。">
+
+<button aria-controls="details-acne-scar-0" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>黄金 PTT</span></span><span class="price-card__desc">골드PTT</span></span><span class="price-card__price"><span>₩450,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-acne-scar-0"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>黄金 PTT 1次</td><td>₩450,000</td></tr><tr><td>Acne Package</td><td>₩1,290,000</td></tr></tbody></table><p class="price-card__note">Acne Package：黄金 PTT 3次 + Vbeam 激光 3次 + Agnes 激光 1次。</p></div></div></div></article><article class="price-card no-details" data-card="" data-ci="1" data-ii="1" data-search="痘痘疤痕毛孔痘痘·疤痕·毛孔acne&amp;scar点涂法dotpeel도트필·全脸₩300,000">
+
+<button aria-disabled="true" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>点涂法 Dotpeel</span></span><span class="price-card__desc">도트필 · 全脸</span></span><span class="price-card__price"><span>₩300,000</span></span></span>
+<span class="price-card__expand"><span>固定价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button></article><article class="price-card" data-card="" data-ci="1" data-ii="2" data-search="痘痘疤痕毛孔痘痘·疤痕·毛孔acne&amp;scar黑曜双波微针sylfirm실펌₩282,000sylfirm1次₩282,000">
+
+<button aria-controls="details-acne-scar-2" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>黑曜双波微针 Sylfirm</span></span><span class="price-card__desc">실펌</span></span><span class="price-card__price"><span>₩282,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-acne-scar-2"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>Sylfirm 1次</td><td>₩282,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="1" data-ii="3" data-search="痘痘疤痕毛孔痘痘·疤痕·毛孔acne&amp;scar黄金微针potenza포텐자₩213,000黄金微针1次₩213,000">
+
+<button aria-controls="details-acne-scar-3" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>黄金微针 Potenza</span></span><span class="price-card__desc">포텐자</span></span><span class="price-card__price"><span>₩213,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-acne-scar-3"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>黄金微针 1次</td><td>₩213,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="1" data-ii="4" data-search="痘痘疤痕毛孔痘痘·疤痕·毛孔acne&amp;scar针清护理압출₩5,0001～5个₩5,000全脸针清（不施术激光）₩50,000消炎针₩11,000～30,000">
+
+<button aria-controls="details-acne-scar-4" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>针清护理</span></span><span class="price-card__desc">압출</span></span><span class="price-card__price"><span>₩5,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-acne-scar-4"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1～5个</td><td>₩5,000</td></tr><tr><td>全脸针清（不施术激光）</td><td>₩50,000</td></tr><tr><td>消炎针</td><td>₩11,000～30,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="1" data-ii="5" data-search="痘痘疤痕毛孔痘痘·疤痕·毛孔acne&amp;scar外泌体cell/asce셀/asce엑소좀₩129,0003cc₩129,0006cc₩258,000">
+
+<button aria-controls="details-acne-scar-5" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>外泌体 CELL / ASCE</span></span><span class="price-card__desc">셀 / ASCE 엑소좀</span></span><span class="price-card__price"><span>₩129,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-acne-scar-5"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>3CC</td><td>₩129,000</td></tr><tr><td>6CC</td><td>₩258,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="1" data-ii="6" data-search="痘痘疤痕毛孔痘痘·疤痕·毛孔acne&amp;scardoubletite黄金微针더블타이트₩173,000全脸水光针₩173,000全脸水光肉毒₩193,000追加juvelook或丽珠兰时，与水光/水光肉毒复配后施术。">
+
+<button aria-controls="details-acne-scar-6" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>Double Tite 黄金微针</span></span><span class="price-card__desc">더블타이트</span></span><span class="price-card__price"><span>₩173,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-acne-scar-6"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>全脸水光针</td><td>₩173,000</td></tr><tr><td>全脸水光肉毒</td><td>₩193,000</td></tr></tbody></table><p class="price-card__note">追加 Juvelook 或丽珠兰时，与水光 / 水光肉毒复配后施术。</p></div></div></div></article></div>
+
+</section><section class="section" data-ci="2" data-section="regeneration" id="section-regeneration">
+
+<div class="section__head"><div class="section__title-wrap"><p class="section__kicker">Skin Booster &amp; Collagen</p><h2 class="section__title"><span>✦</span> <span>水光 · 胶原 · 再生</span></h2><p class="section__notice">点击这里添加大标题说明</p></div><span class="section__count">12 项</span></div>
+<div class="card-grid"><article class="price-card" data-card="" data-ci="2" data-ii="0" data-search="水光胶原再生水光·胶原·再生skinbooster&amp;collagen丽珠兰rejuran리쥬란₩120,000黑盒2cc₩240,000眼部丽珠兰1cc₩120,000红盒hb1cc₩150,000无痛丽珠兰6cc+doubletight₩690,000德玛莎注射探头费₩33,000">
+
+<button aria-controls="details-regeneration-0" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>丽珠兰 Rejuran</span></span><span class="price-card__desc">리쥬란</span></span><span class="price-card__price"><span>₩120,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-regeneration-0"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>黑盒 2CC</td><td>₩240,000</td></tr><tr><td>眼部丽珠兰 1CC</td><td>₩120,000</td></tr><tr><td>红盒 HB 1CC</td><td>₩150,000</td></tr><tr><td>无痛丽珠兰 6CC + Double Tight</td><td>₩690,000</td></tr><tr><td>德玛莎注射探头费</td><td>₩33,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card no-details" data-card="" data-ci="2" data-ii="1" data-search="水光胶原再生水光·胶原·再生skinbooster&amp;collagenre20胶原蛋白리투오·5cc₩800,000">
+
+<button aria-disabled="true" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>Re20 胶原蛋白</span></span><span class="price-card__desc">리투오 · 5CC</span></span><span class="price-card__price"><span>₩800,000</span></span></span>
+<span class="price-card__expand"><span>固定价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button></article><article class="price-card no-details" data-card="" data-ci="2" data-ii="2" data-search="水光胶原再生水光·胶原·再生skinbooster&amp;collagen眼部re20胶原蛋白리투오아이·5cc₩800,000">
+
+<button aria-disabled="true" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>眼部 Re20 胶原蛋白</span></span><span class="price-card__desc">리투오 아이 · 5CC</span></span><span class="price-card__price"><span>₩800,000</span></span></span>
+<span class="price-card__expand"><span>固定价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button></article><article class="price-card no-details" data-card="" data-ci="2" data-ii="3" data-search="水光胶原再生水光·胶原·再生skinbooster&amp;collagenlaetigen胶原蛋白레티젠·2cc₩590,000">
+
+<button aria-disabled="true" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>Laetigen 胶原蛋白</span></span><span class="price-card__desc">레티젠 · 2CC</span></span><span class="price-card__price"><span>₩590,000</span></span></span>
+<span class="price-card__expand"><span>固定价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button></article><article class="price-card" data-card="" data-ci="2" data-ii="4" data-search="水光胶原再生水光·胶原·再生skinbooster&amp;collagendermacindella水光针（pn）더마신데렐라₩77,0001cc₩77,000">
+
+<button aria-controls="details-regeneration-4" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>Dermacindella 水光针（PN）</span></span><span class="price-card__desc">더마신데렐라</span></span><span class="price-card__price"><span>₩77,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-regeneration-4"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1CC</td><td>₩77,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="2" data-ii="5" data-search="水光胶原再生水光·胶原·再生skinbooster&amp;collagen三文鱼水光（手打）연어주사·pdrn₩66,000pdrn2cc₩66,000pdrn4cc₩129,000">
+
+<button aria-controls="details-regeneration-5" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>三文鱼水光（手打）</span></span><span class="price-card__desc">연어주사 · PDRN</span></span><span class="price-card__price"><span>₩66,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-regeneration-5"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>PDRN 2CC</td><td>₩66,000</td></tr><tr><td>PDRN 4CC</td><td>₩129,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="2" data-ii="6" data-search="水光胶原再生水光·胶原·再生skinbooster&amp;collagen艾塑菲aesthefill에스테필·胶原蛋白₩449,00010cc1次（1瓶）₩449,000">
+
+<button aria-controls="details-regeneration-6" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>艾塑菲 Aesthefill</span></span><span class="price-card__desc">에스테필 · 胶原蛋白</span></span><span class="price-card__price"><span>₩449,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-regeneration-6"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>10CC 1次（1瓶）</td><td>₩449,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="2" data-ii="7" data-search="水光胶原再生水光·胶原·再生skinbooster&amp;collagen塑妍萃scultra스컬트라₩750,0001瓶₩750,0003瓶₩2,090,000">
+
+<button aria-controls="details-regeneration-7" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>塑妍萃 SCULTRA</span></span><span class="price-card__desc">스컬트라</span></span><span class="price-card__price"><span>₩750,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-regeneration-7"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1瓶</td><td>₩750,000</td></tr><tr><td>3瓶</td><td>₩2,090,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="2" data-ii="8" data-search="水光胶原再生水光·胶原·再生skinbooster&amp;collagenultracol胶原蛋白울트라콜₩690,000ultracol100·1瓶₩690,000ultracol200·1瓶₩690,000">
+
+<button aria-controls="details-regeneration-8" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>Ultracol 胶原蛋白</span></span><span class="price-card__desc">울트라콜</span></span><span class="price-card__price"><span>₩690,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-regeneration-8"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>Ultracol 100 · 1瓶</td><td>₩690,000</td></tr><tr><td>Ultracol 200 · 1瓶</td><td>₩690,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="2" data-ii="9" data-search="水光胶原再生水光·胶原·再生skinbooster&amp;collagen乔雅登长效水光skinvive스킨바이브₩270,0001cc₩270,000">
+
+<button aria-controls="details-regeneration-9" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>乔雅登长效水光 SKINVIVE</span></span><span class="price-card__desc">스킨바이브</span></span><span class="price-card__price"><span>₩270,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-regeneration-9"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1CC</td><td>₩270,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="2" data-ii="10" data-search="水光胶原再生水光·胶原·再生skinbooster&amp;collagen德玛莎水光针더마샤인물광주사₩132,000水光针1次₩132,000水光肉毒1次₩162,000追加cryo镇静管理₩22,000">
+
+<button aria-controls="details-regeneration-10" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>德玛莎水光针</span></span><span class="price-card__desc">더마샤인 물광주사</span></span><span class="price-card__price"><span>₩132,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-regeneration-10"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>水光针 1次</td><td>₩132,000</td></tr><tr><td>水光肉毒 1次</td><td>₩162,000</td></tr><tr><td>追加 CRYO 镇静管理</td><td>₩22,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="2" data-ii="11" data-search="水光胶原再生水光·胶原·再生skinbooster&amp;collagenjuvelook（可配皮下分离术）쥬베룩+서브시전₩110,000juvelook2cc1次₩240,000juvelook4cc1次₩480,000juvelook1cc单条颈纹₩110,000德玛莎机打探头费₩33,000皮下分离术按需选择；德玛莎机打需另加探头费。">
+
+<button aria-controls="details-regeneration-11" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>Juvelook（可配皮下分离术）</span></span><span class="price-card__desc">쥬베룩 + 서브시전</span></span><span class="price-card__price"><span>₩110,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-regeneration-11"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>Juvelook 2CC 1次</td><td>₩240,000</td></tr><tr><td>Juvelook 4CC 1次</td><td>₩480,000</td></tr><tr><td>Juvelook 1CC 单条颈纹</td><td>₩110,000</td></tr><tr><td>德玛莎机打探头费</td><td>₩33,000</td></tr></tbody></table><p class="price-card__note">皮下分离术按需选择；德玛莎机打需另加探头费。</p></div></div></div></article></div>
+
+</section><section class="section" data-ci="3" data-section="skin-care" id="section-skin-care">
+
+<div class="section__head"><div class="section__title-wrap"><p class="section__kicker">Skin Care</p><h2 class="section__title"><span>✦</span> <span>皮肤管理 · 镇静 · 焕肤</span></h2><p class="section__notice">点击这里添加大标题说明</p></div><span class="section__count">6 项</span></div>
+<div class="card-grid"><article class="price-card no-details" data-card="" data-ci="3" data-ii="0" data-search="皮肤管理皮肤管理·镇静·焕肤skincareldm水滴ldm6分钟₩77,000">
+
+<button aria-disabled="true" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>LDM 水滴</span></span><span class="price-card__desc">LDM 6分钟</span></span><span class="price-card__price"><span>₩77,000</span></span></span>
+<span class="price-card__expand"><span>固定价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button></article><article class="price-card no-details" data-card="" data-ci="3" data-ii="1" data-search="皮肤管理皮肤管理·镇静·焕肤skincare软膜追加모델링팩추가·1次₩7,700">
+
+<button aria-disabled="true" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>软膜追加</span></span><span class="price-card__desc">모델링팩 추가 · 1次</span></span><span class="price-card__price"><span>₩7,700</span></span></span>
+<span class="price-card__expand"><span>固定价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button></article><article class="price-card no-details" data-card="" data-ci="3" data-ii="2" data-search="皮肤管理皮肤管理·镇静·焕肤skincarecryo镇定管理크라이오관리·1次₩49,000">
+
+<button aria-disabled="true" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>CRYO 镇定管理</span></span><span class="price-card__desc">크라이오 관리 · 1次</span></span><span class="price-card__price"><span>₩49,000</span></span></span>
+<span class="price-card__expand"><span>固定价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button></article><article class="price-card" data-card="" data-ci="3" data-ii="3" data-search="皮肤管理皮肤管理·镇静·焕肤skincare基础皮肤管理피부관리₩77,000小气泡aquapeel1次₩77,000affinite1次₩99,000">
+
+<button aria-controls="details-skin-care-3" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>基础皮肤管理</span></span><span class="price-card__desc">피부관리</span></span><span class="price-card__price"><span>₩77,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-skin-care-3"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>小气泡 Aquapeel 1次</td><td>₩77,000</td></tr><tr><td>Affinite 1次</td><td>₩99,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="3" data-ii="4" data-search="皮肤管理皮肤管理·镇静·焕肤skincarelalapeel焕肤라라필₩77,0001次₩77,0003次₩195,0005次₩300,000">
+
+<button aria-controls="details-skin-care-4" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>LALApeel 焕肤</span></span><span class="price-card__desc">라라필</span></span><span class="price-card__price"><span>₩77,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-skin-care-4"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1次</td><td>₩77,000</td></tr><tr><td>3次</td><td>₩195,000</td></tr><tr><td>5次</td><td>₩300,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="3" data-ii="5" data-search="皮肤管理皮肤管理·镇静·焕肤skincareairjet에어젯·含healite150发₩249,000airjet1次+healite150发₩249,000">
+
+<button aria-controls="details-skin-care-5" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>AirJet</span></span><span class="price-card__desc">에어젯 · 含 Healite 150发</span></span><span class="price-card__price"><span>₩249,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-skin-care-5"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>AirJet 1次 + Healite 150发</td><td>₩249,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article></div>
+
+</section><section class="section" data-ci="4" data-section="lifting" id="section-lifting">
+
+<div class="section__head"><div class="section__title-wrap"><p class="section__kicker">Lifting &amp; Tightening</p><h2 class="section__title"><span>✦</span> <span>提升 · 紧致 · 射频</span></h2><p class="section__notice">点击这里添加大标题说明</p></div><span class="section__count">12 项</span></div>
+<div class="card-grid"><article class="price-card" data-card="" data-ci="4" data-ii="0" data-search="提升紧致提升·紧致·射频lifting&amp;tightening韩版超声刀linearfirm리니어펌₩35,000300发₩99,000500发₩149,0001000发₩269,000">
+
+<button aria-controls="details-lifting-0" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>韩版超声刀 LinearFirm</span></span><span class="price-card__desc">리니어펌</span></span><span class="price-card__price"><span>₩35,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-lifting-0"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>300发</td><td>₩99,000</td></tr><tr><td>500发</td><td>₩149,000</td></tr><tr><td>1000发</td><td>₩269,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="4" data-ii="1" data-search="提升紧致提升·紧致·射频lifting&amp;tightening钻石超塑inmode인모드·脸部fx/forma₩99,000fx/forma10分钟₩99,000fx/forma15分钟₩149,000">
+
+<button aria-controls="details-lifting-1" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>钻石超塑 InMode</span></span><span class="price-card__desc">인모드 · 脸部 FX / Forma</span></span><span class="price-card__price"><span>₩99,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-lifting-1"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>FX / Forma 10分钟</td><td>₩99,000</td></tr><tr><td>FX / Forma 15分钟</td><td>₩149,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="4" data-ii="2" data-search="提升紧致提升·紧致·射频lifting&amp;tightening韩版超声刀shurink슈링크/슈링크유니버스₩29,700一代300发₩89,000二代100发₩55,000二代300发₩159,000二代600发₩319,000二代900发₩469,000pdf中二代600发、900发后面的韩文发数标注疑似错位，中文金额已照录。">
+
+<button aria-controls="details-lifting-2" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>韩版超声刀 Shurink</span></span><span class="price-card__desc">슈링크 / 슈링크 유니버스</span></span><span class="price-card__price"><span>₩29,700</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-lifting-2"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>一代 300发</td><td>₩89,000</td></tr><tr><td>二代 100发</td><td>₩55,000</td></tr><tr><td>二代 300发</td><td>₩159,000</td></tr><tr><td>二代 600发</td><td>₩319,000</td></tr><tr><td>二代 900发</td><td>₩469,000</td></tr></tbody></table><p class="price-card__note">PDF 中二代 600发、900发后面的韩文发数标注疑似错位，中文金额已照录。</p></div></div></div></article><article class="price-card" data-card="" data-ci="4" data-ii="3" data-search="提升紧致提升·紧致·射频lifting&amp;tightening韩版超声刀doublo더블로₩169,000300发₩169,000400发₩225,200500发₩281,000">
+
+<button aria-controls="details-lifting-3" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>韩版超声刀 Doublo</span></span><span class="price-card__desc">더블로</span></span><span class="price-card__price"><span>₩169,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-lifting-3"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>300发</td><td>₩169,000</td></tr><tr><td>400发</td><td>₩225,200</td></tr><tr><td>500发</td><td>₩281,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="4" data-ii="4" data-search="提升紧致提升·紧致·射频lifting&amp;tightening韩版热玛吉thefect써팩트₩149,0001次₩389,000">
+
+<button aria-controls="details-lifting-4" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>韩版热玛吉 Thefect</span></span><span class="price-card__desc">써팩트</span></span><span class="price-card__price"><span>₩149,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-lifting-4"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1次</td><td>₩389,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="4" data-ii="5" data-search="提升紧致提升·紧致·射频lifting&amp;tightening韩版热玛吉oligio올리지오₩109,000300发₩319,000600发₩599,000900发₩990,000">
+
+<button aria-controls="details-lifting-5" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>韩版热玛吉 Oligio</span></span><span class="price-card__desc">올리지오</span></span><span class="price-card__price"><span>₩109,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-lifting-5"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>300发</td><td>₩319,000</td></tr><tr><td>600发</td><td>₩599,000</td></tr><tr><td>900发</td><td>₩990,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="4" data-ii="6" data-search="提升紧致提升·紧致·射频lifting&amp;tightening黄金椿volnewmer볼뉴머·韩版热玛吉₩158,000600发₩890,000900发₩990,000">
+
+<button aria-controls="details-lifting-6" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>黄金椿 Volnewmer</span></span><span class="price-card__desc">볼뉴머 · 韩版热玛吉</span></span><span class="price-card__price"><span>₩158,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-lifting-6"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>600发</td><td>₩890,000</td></tr><tr><td>900发</td><td>₩990,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="4" data-ii="7" data-search="提升紧致提升·紧致·射频lifting&amp;tightening美版超声刀1代울세라₩280,000100发₩280,000300发₩840,000600发₩1,680,000900发₩2,520,000">
+
+<button aria-controls="details-lifting-7" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>美版超声刀 1代</span></span><span class="price-card__desc">울세라</span></span><span class="price-card__price"><span>₩280,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-lifting-7"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>100发</td><td>₩280,000</td></tr><tr><td>300发</td><td>₩840,000</td></tr><tr><td>600发</td><td>₩1,680,000</td></tr><tr><td>900发</td><td>₩2,520,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="4" data-ii="8" data-search="提升紧致提升·紧致·射频lifting&amp;tightening美版超声刀2代울세라피프라임₩400,000100发₩400,000300发₩1,200,000600发₩2,400,000900发₩3,600,000">
+
+<button aria-controls="details-lifting-8" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>美版超声刀 2代</span></span><span class="price-card__desc">울세라피 프라임</span></span><span class="price-card__price"><span>₩400,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-lifting-8"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>100发</td><td>₩400,000</td></tr><tr><td>300发</td><td>₩1,200,000</td></tr><tr><td>600发</td><td>₩2,400,000</td></tr><tr><td>900发</td><td>₩3,600,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="4" data-ii="9" data-search="提升紧致提升·紧致·射频lifting&amp;tightening美版热玛吉thermageflx써마지₩990,000flx600发₩1,990,000flx900发₩2,690,000眼部225发₩990,000眼部450发₩1,890,000">
+
+<button aria-controls="details-lifting-9" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>美版热玛吉 Thermage FLX</span></span><span class="price-card__desc">써마지</span></span><span class="price-card__price"><span>₩990,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-lifting-9"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>FLX 600发</td><td>₩1,990,000</td></tr><tr><td>FLX 900发</td><td>₩2,690,000</td></tr><tr><td>眼部 225发</td><td>₩990,000</td></tr><tr><td>眼部 450发</td><td>₩1,890,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="4" data-ii="10" data-search="提升紧致提升·紧致·射频lifting&amp;tighteningxerf韩版双射频热玛吉세르프₩1,290,000300发₩1,290,000600发₩1,890,000">
+
+<button aria-controls="details-lifting-10" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>Xerf 韩版双射频热玛吉</span></span><span class="price-card__desc">세르프</span></span><span class="price-card__price"><span>₩1,290,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-lifting-10"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>300发</td><td>₩1,290,000</td></tr><tr><td>600发</td><td>₩1,890,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="4" data-ii="11" data-search="提升紧致提升·紧致·射频lifting&amp;tighteningonda提升온다·脸部₩69,000脸部10kj₩69,000下颌缘60kj₩409,000全脸100kj（15分钟）₩599,000">
+
+<button aria-controls="details-lifting-11" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>ONDA 提升</span></span><span class="price-card__desc">온다 · 脸部</span></span><span class="price-card__price"><span>₩69,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-lifting-11"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>脸部 10KJ</td><td>₩69,000</td></tr><tr><td>下颌缘 60KJ</td><td>₩409,000</td></tr><tr><td>全脸 100KJ（15分钟）</td><td>₩599,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article></div>
+
+</section><section class="section" data-ci="5" data-section="body-contour" id="section-body-contour">
+
+<div class="section__head"><div class="section__title-wrap"><p class="section__kicker">Body Contouring</p><h2 class="section__title"><span>✦</span> <span>身体塑形 · 溶脂</span></h2><p class="section__notice">点击这里添加大标题说明</p></div><span class="section__count">8 项</span></div>
+<div class="card-grid"><article class="price-card" data-card="" data-ci="5" data-ii="0" data-search="身体塑形溶脂身体塑形·溶脂bodycontouring身体onda바디온다·腹部/手臂₩699,000100kj₩699,000300kj₩1,999,000500kj₩3,300,000">
+
+<button aria-controls="details-body-contour-0" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>身体 ONDA</span></span><span class="price-card__desc">바디온다 · 腹部 / 手臂</span></span><span class="price-card__price"><span>₩699,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-body-contour-0"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>100KJ</td><td>₩699,000</td></tr><tr><td>300KJ</td><td>₩1,999,000</td></tr><tr><td>500KJ</td><td>₩3,300,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="5" data-ii="1" data-search="身体塑形溶脂身体塑形·溶脂bodycontouring身体钻石超塑바디인모드₩199,00015分钟₩199,00030分钟₩349,000">
+
+<button aria-controls="details-body-contour-1" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>身体钻石超塑</span></span><span class="price-card__desc">바디 인모드</span></span><span class="price-card__price"><span>₩199,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-body-contour-1"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>15分钟</td><td>₩199,000</td></tr><tr><td>30分钟</td><td>₩349,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="5" data-ii="2" data-search="身体塑形溶脂身体塑形·溶脂bodycontouringscizer身体超声刀사이저₩499,00090发₩499,000150发₩999,000">
+
+<button aria-controls="details-body-contour-2" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>Scizer 身体超声刀</span></span><span class="price-card__desc">사이저</span></span><span class="price-card__price"><span>₩499,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-body-contour-2"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>90发</td><td>₩499,000</td></tr><tr><td>150发</td><td>₩999,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="5" data-ii="3" data-search="身体塑形溶脂身体塑形·溶脂bodycontouring优飞塑ulfit身体超声刀울핏₩399,000600发₩399,0001200发₩759,000">
+
+<button aria-controls="details-body-contour-3" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>优飞塑 Ulfit 身体超声刀</span></span><span class="price-card__desc">울핏</span></span><span class="price-card__price"><span>₩399,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-body-contour-3"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>600发</td><td>₩399,000</td></tr><tr><td>1200发</td><td>₩759,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="5" data-ii="4" data-search="身体塑形溶脂身体塑形·溶脂bodycontouring冷冻溶脂micool미쿨₩59,0001片₩59,0006片₩349,0008片₩462,000pdf韩文栏对后两档分别标注8片、10片，与中文数量不一致，需复核。">
+
+<button aria-controls="details-body-contour-4" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>冷冻溶脂 MiCool</span></span><span class="price-card__desc">미쿨</span></span><span class="price-card__price"><span>₩59,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-body-contour-4"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1片</td><td>₩59,000</td></tr><tr><td>6片</td><td>₩349,000</td></tr><tr><td>8片</td><td>₩462,000</td></tr></tbody></table><p class="price-card__note">PDF 韩文栏对后两档分别标注 8片、10片，与中文数量不一致，需复核。</p></div></div></div></article><article class="price-card" data-card="" data-ci="5" data-ii="5" data-search="身体塑形溶脂身体塑形·溶脂bodycontouring溶脂针violet브이올렛₩208,0002cc1次₩208,000">
+
+<button aria-controls="details-body-contour-5" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>溶脂针 Violet</span></span><span class="price-card__desc">브이올렛</span></span><span class="price-card__price"><span>₩208,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-body-contour-5"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>2CC 1次</td><td>₩208,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card no-details" data-card="" data-ci="5" data-ii="6" data-search="身体塑形溶脂身体塑形·溶脂bodycontouring面部溶脂针bellacholine2cc·1vial₩150,000">
+
+<button aria-disabled="true" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>面部溶脂针 Bella choline</span></span><span class="price-card__desc">2CC · 1 vial</span></span><span class="price-card__price"><span>₩150,000</span></span></span>
+<span class="price-card__expand"><span>固定价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button></article><article class="price-card no-details" data-card="" data-ci="5" data-ii="7" data-search="身体塑形溶脂身体塑形·溶脂bodycontouring身体溶脂针뉴비쥬·1vial2cc₩299,000">
+
+<button aria-disabled="true" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>身体溶脂针</span></span><span class="price-card__desc">뉴비쥬 · 1 vial 2CC</span></span><span class="price-card__price"><span>₩299,000</span></span></span>
+<span class="price-card__expand"><span>固定价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button></article></div>
+
+</section><section class="section" data-ci="6" data-section="botox" id="section-botox">
+
+<div class="section__head"><div class="section__title-wrap"><p class="section__kicker">Botox</p><h2 class="section__title"><span>✦</span> <span>肉毒素</span></h2><p class="section__notice">点击这里添加大标题说明</p></div><span class="section__count">5 项</span></div>
+<div class="card-grid"><article class="price-card" data-card="" data-ci="6" data-ii="0" data-search="肉毒素肉毒素botox韩国产肉毒hitox국산보톡스·하이톡스₩60,0001个部位₩60,0002个部位₩100,000瘦脸针/唾液腺₩99,000下颌缘提升₩250,000韩国产hitox100u₩110,000">
+
+<button aria-controls="details-botox-0" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>韩国产肉毒 Hitox</span></span><span class="price-card__desc">국산 보톡스 · 하이톡스</span></span><span class="price-card__price"><span>₩60,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-botox-0"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1个部位</td><td>₩60,000</td></tr><tr><td>2个部位</td><td>₩100,000</td></tr><tr><td>瘦脸针 / 唾液腺</td><td>₩99,000</td></tr><tr><td>下颌缘提升</td><td>₩250,000</td></tr><tr><td>韩国产 Hitox 100U</td><td>₩110,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="6" data-ii="1" data-search="肉毒素肉毒素botox韩国产肉毒coretox코어톡스₩80,0001个部位₩80,0002个部位₩150,000瘦脸针/唾液腺₩130,000韩国产coretox100u₩230,000下颌缘提升₩250,000">
+
+<button aria-controls="details-botox-1" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>韩国产肉毒 Coretox</span></span><span class="price-card__desc">코어톡스</span></span><span class="price-card__price"><span>₩80,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-botox-1"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1个部位</td><td>₩80,000</td></tr><tr><td>2个部位</td><td>₩150,000</td></tr><tr><td>瘦脸针 / 唾液腺</td><td>₩130,000</td></tr><tr><td>韩国产 Coretox 100U</td><td>₩230,000</td></tr><tr><td>下颌缘提升</td><td>₩250,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="6" data-ii="2" data-search="肉毒素肉毒素botox西马xeomin（德国）제오민₩110,0001个部位₩110,0002个部位₩180,000瘦脸针/唾液腺₩160,000下颌缘提升₩300,000德国西马100u₩260,000">
+
+<button aria-controls="details-botox-2" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>西马 Xeomin（德国）</span></span><span class="price-card__desc">제오민</span></span><span class="price-card__price"><span>₩110,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-botox-2"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1个部位</td><td>₩110,000</td></tr><tr><td>2个部位</td><td>₩180,000</td></tr><tr><td>瘦脸针 / 唾液腺</td><td>₩160,000</td></tr><tr><td>下颌缘提升</td><td>₩300,000</td></tr><tr><td>德国西马 100U</td><td>₩260,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="6" data-ii="3" data-search="肉毒素肉毒素botox保妥适allergan（美国）엘러간₩160,0001个部位₩160,000瘦脸针/唾液腺₩190,0001瓶（50u）₩260,000下颌缘提升₩330,000">
+
+<button aria-controls="details-botox-3" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>保妥适 Allergan（美国）</span></span><span class="price-card__desc">엘러간</span></span><span class="price-card__price"><span>₩160,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-botox-3"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1个部位</td><td>₩160,000</td></tr><tr><td>瘦脸针 / 唾液腺</td><td>₩190,000</td></tr><tr><td>1瓶（50U）</td><td>₩260,000</td></tr><tr><td>下颌缘提升</td><td>₩330,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="6" data-ii="4" data-search="肉毒素肉毒素botox水光肉毒스킨보톡스₩165,000韩国产hitox₩165,000韩国产coretox₩199,000德国西马xeomin₩250,000">
+
+<button aria-controls="details-botox-4" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>水光肉毒</span></span><span class="price-card__desc">스킨보톡스</span></span><span class="price-card__price"><span>₩165,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-botox-4"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>韩国产 Hitox</td><td>₩165,000</td></tr><tr><td>韩国产 Coretox</td><td>₩199,000</td></tr><tr><td>德国西马 Xeomin</td><td>₩250,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article></div>
+
+</section><section class="section" data-ci="7" data-section="filler" id="section-filler">
+
+<div class="section__head"><div class="section__title-wrap"><p class="section__kicker">Filler</p><h2 class="section__title"><span>✦</span> <span>玻尿酸 · 填充</span></h2><p class="section__notice">点击这里添加大标题说明</p></div><span class="section__count">8 项</span></div>
+<div class="card-grid"><article class="price-card" data-card="" data-ci="7" data-ii="0" data-search="玻尿酸填充玻尿酸·填充filler韩国产玻尿酸국산필러₩89,000atiere1cc₩89,000rejuviel1cc₩169,000">
+
+<button aria-controls="details-filler-0" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>韩国产玻尿酸</span></span><span class="price-card__desc">국산 필러</span></span><span class="price-card__price"><span>₩89,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-filler-0"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>Atiere 1CC</td><td>₩89,000</td></tr><tr><td>Rejuviel 1CC</td><td>₩169,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="7" data-ii="1" data-search="玻尿酸填充玻尿酸·填充filler眉弓玻尿酸눈썹뼈필러₩159,000韩国产1cc₩159,000rejuviel1cc₩219,000乔雅登/瑞蓝1cc₩390,000保柔缇1cc₩390,000">
+
+<button aria-controls="details-filler-1" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>眉弓玻尿酸</span></span><span class="price-card__desc">눈썹뼈 필러</span></span><span class="price-card__price"><span>₩159,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-filler-1"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>韩国产 1CC</td><td>₩159,000</td></tr><tr><td>Rejuviel 1CC</td><td>₩219,000</td></tr><tr><td>乔雅登 / 瑞蓝 1CC</td><td>₩390,000</td></tr><tr><td>保柔缇 1CC</td><td>₩390,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="7" data-ii="2" data-search="玻尿酸填充玻尿酸·填充filler精灵耳填充귀필러₩129,000韩国产玻尿酸1cc₩129,000韩国产玻尿酸套餐（无限量）₩690,000乔雅登/瑞蓝1cc₩390,000保柔缇1cc₩390,000">
+
+<button aria-controls="details-filler-2" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>精灵耳填充</span></span><span class="price-card__desc">귀필러</span></span><span class="price-card__price"><span>₩129,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-filler-2"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>韩国产玻尿酸 1CC</td><td>₩129,000</td></tr><tr><td>韩国产玻尿酸套餐（无限量）</td><td>₩690,000</td></tr><tr><td>乔雅登 / 瑞蓝 1CC</td><td>₩390,000</td></tr><tr><td>保柔缇 1CC</td><td>₩390,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="7" data-ii="3" data-search="玻尿酸填充玻尿酸·填充filler直角肩玻尿酸어깨필러₩129,000atiere1cc₩129,000atiere套餐（无限量）₩2,000,000rejuviel1cc₩199,000rejuviel套餐（无限量）₩3,500,000乔雅登1cc₩390,000乔雅登套餐（无限量）₩7,500,000">
+
+<button aria-controls="details-filler-3" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>直角肩玻尿酸</span></span><span class="price-card__desc">어깨 필러</span></span><span class="price-card__price"><span>₩129,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-filler-3"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>Atiere 1CC</td><td>₩129,000</td></tr><tr><td>Atiere 套餐（无限量）</td><td>₩2,000,000</td></tr><tr><td>Rejuviel 1CC</td><td>₩199,000</td></tr><tr><td>Rejuviel 套餐（无限量）</td><td>₩3,500,000</td></tr><tr><td>乔雅登 1CC</td><td>₩390,000</td></tr><tr><td>乔雅登套餐（无限量）</td><td>₩7,500,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="7" data-ii="4" data-search="玻尿酸填充玻尿酸·填充filler骨盆玻尿酸골반필러₩3,990,000atiere（无限量）₩3,990,000rejuviel（无限量）₩5,900,000">
+
+<button aria-controls="details-filler-4" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>骨盆玻尿酸</span></span><span class="price-card__desc">골반 필러</span></span><span class="price-card__price"><span>₩3,990,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-filler-4"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>Atiere（无限量）</td><td>₩3,990,000</td></tr><tr><td>Rejuviel（无限量）</td><td>₩5,900,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="7" data-ii="5" data-search="玻尿酸填充玻尿酸·填充filler进口玻尿酸单价1cc₩390,000乔雅登juvederm1cc₩390,000瑞蓝restylane1cc₩390,000保柔提belotero1cc₩390,000">
+
+<button aria-controls="details-filler-5" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>进口玻尿酸单价</span></span><span class="price-card__desc">1CC </span></span><span class="price-card__price"><span>₩390,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-filler-5"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>乔雅登 Juvederm 1CC</td><td>₩390,000</td></tr><tr><td>瑞蓝 Restylane 1CC</td><td>₩390,000</td></tr><tr><td>保柔提 Belotero 1CC</td><td>₩390,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card no-details" data-card="" data-ci="7" data-ii="6" data-search="玻尿酸填充玻尿酸·填充filler玻尿酸溶解酶필러녹이는주사₩110,000">
+
+<button aria-disabled="true" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>玻尿酸溶解酶</span></span><span class="price-card__desc">필러 녹이는 주사</span></span><span class="price-card__price"><span>₩110,000</span></span></span>
+<span class="price-card__expand"><span>固定价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button></article><article class="price-card no-details" data-card="" data-ci="7" data-ii="7" data-search="玻尿酸填充玻尿酸·填充filler瑞德喜1.5cc₩690000">
+
+<button aria-disabled="true" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>瑞德喜</span></span><span class="price-card__desc">1.5cc</span></span><span class="price-card__price"><span>₩690000</span><small>起</small></span></span>
+<span class="price-card__expand"><span>固定价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button></article></div>
+
+</section><section class="section" data-ci="8" data-section="thread-lifting" id="section-thread-lifting">
+
+<div class="section__head"><div class="section__title-wrap"><p class="section__kicker">Thread Lifting</p><h2 class="section__title"><span>✦</span> <span>线雕隆鼻 · 线雕提升</span></h2><p class="section__notice">点击这里添加大标题说明</p></div><span class="section__count">6 项</span></div>
+<div class="card-grid"><article class="price-card" data-card="" data-ci="8" data-ii="0" data-search="线雕线雕隆鼻·线雕提升threadlifting线雕隆鼻hiko（一般）일반하이코₩95,0003根₩95,0004根₩125,0004根以上追加1根₩50,000">
+
+<button aria-controls="details-thread-lifting-0" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>线雕隆鼻 Hiko（一般）</span></span><span class="price-card__desc">일반 하이코</span></span><span class="price-card__price"><span>₩95,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-thread-lifting-0"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>3根</td><td>₩95,000</td></tr><tr><td>4根</td><td>₩125,000</td></tr><tr><td>4根以上追加 1根</td><td>₩50,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="8" data-ii="1" data-search="线雕线雕隆鼻·线雕提升threadlifting线雕隆鼻hikopcl/pdo하이코pcl/pdo₩129,0003根₩129,0004根₩169,0004根以上追加1根₩50,000">
+
+<button aria-controls="details-thread-lifting-1" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>线雕隆鼻 Hiko PCL / PDO</span></span><span class="price-card__desc">하이코 PCL / PDO</span></span><span class="price-card__price"><span>₩129,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-thread-lifting-1"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>3根</td><td>₩129,000</td></tr><tr><td>4根</td><td>₩169,000</td></tr><tr><td>4根以上追加 1根</td><td>₩50,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="8" data-ii="2" data-search="线雕线雕隆鼻·线雕提升threadlifting线雕隆鼻lsco엘스코₩99,0001根₩99,0005根₩469,000">
+
+<button aria-controls="details-thread-lifting-2" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>线雕隆鼻 LSCO</span></span><span class="price-card__desc">엘스코</span></span><span class="price-card__price"><span>₩99,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-thread-lifting-2"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1根</td><td>₩99,000</td></tr><tr><td>5根</td><td>₩469,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="8" data-ii="3" data-search="线雕线雕隆鼻·线雕提升threadlifting线雕隆鼻时追加玻尿酸콧대필러추가₩50,000韩国产玻尿酸（thechaeum）₩50,000乔雅登juvederm₩299,000">
+
+<button aria-controls="details-thread-lifting-3" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>线雕隆鼻时追加玻尿酸</span></span><span class="price-card__desc">콧대 필러 추가</span></span><span class="price-card__price"><span>₩50,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-thread-lifting-3"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>韩国产玻尿酸（The Chaeum）</td><td>₩50,000</td></tr><tr><td>乔雅登 Juvederm</td><td>₩299,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="8" data-ii="4" data-search="线雕线雕隆鼻·线雕提升threadlifting线雕提升실리프팅₩1,990,000致美丽特色面中提升₩1,990,000致美丽特色v-line提升₩1,990,000">
+
+<button aria-controls="details-thread-lifting-4" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>线雕提升</span></span><span class="price-card__desc">실리프팅</span></span><span class="price-card__price"><span>₩1,990,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-thread-lifting-4"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>致美丽特色面中提升</td><td>₩1,990,000</td></tr><tr><td>致美丽特色 V-line 提升</td><td>₩1,990,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="8" data-ii="5" data-search="线雕线雕隆鼻·线雕提升threadliftingjamber弹簧填充线잼버실·볼륨실₩264,0004根₩264,000">
+
+<button aria-controls="details-thread-lifting-5" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>Jamber 弹簧填充线</span></span><span class="price-card__desc">잼버실 · 볼륨실</span></span><span class="price-card__price"><span>₩264,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-thread-lifting-5"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>4根</td><td>₩264,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article></div>
+
+</section><section class="section" data-ci="9" data-section="hair-removal" id="section-hair-removal">
+
+<div class="section__head"><div class="section__title-wrap"><p class="section__kicker">Hair Removal</p><h2 class="section__title"><span>✦</span> <span>激光脱毛</span></h2><p class="section__notice">点击这里添加大标题说明</p></div><span class="section__count">5 项</span></div>
+<div class="card-grid"><article class="price-card" data-card="" data-ci="9" data-ii="0" data-search="脱毛激光脱毛hairremoval面部脱毛얼굴제모₩149,0001次₩149,0003次₩419,0005次₩645,000">
+
+<button aria-controls="details-hair-removal-0" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>面部脱毛</span></span><span class="price-card__desc">얼굴 제모</span></span><span class="price-card__price"><span>₩149,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-hair-removal-0"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1次</td><td>₩149,000</td></tr><tr><td>3次</td><td>₩419,000</td></tr><tr><td>5次</td><td>₩645,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="9" data-ii="1" data-search="脱毛激光脱毛hairremoval腋下脱毛겨드랑이제모₩25,0001次₩25,0005次₩88,000">
+
+<button aria-controls="details-hair-removal-1" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>腋下脱毛</span></span><span class="price-card__desc">겨드랑이 제모</span></span><span class="price-card__price"><span>₩25,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-hair-removal-1"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1次</td><td>₩25,000</td></tr><tr><td>5次</td><td>₩88,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="9" data-ii="2" data-search="脱毛激光脱毛hairremoval胡须脱毛수염제모₩88,0001次₩88,0003次₩231,0005次₩330,000">
+
+<button aria-controls="details-hair-removal-2" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>胡须脱毛</span></span><span class="price-card__desc">수염 제모</span></span><span class="price-card__price"><span>₩88,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-hair-removal-2"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1次</td><td>₩88,000</td></tr><tr><td>3次</td><td>₩231,000</td></tr><tr><td>5次</td><td>₩330,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="9" data-ii="3" data-search="脱毛激光脱毛hairremoval前臂脱毛两侧/双手臂下半部·양쪽팔하완₩150,0001次₩150,000">
+
+<button aria-controls="details-hair-removal-3" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>前臂脱毛</span></span><span class="price-card__desc">两侧 / 双手臂下半部 · 양쪽 팔 하완</span></span><span class="price-card__price"><span>₩150,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-hair-removal-3"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1次</td><td>₩150,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article><article class="price-card" data-card="" data-ci="9" data-ii="4" data-search="脱毛激光脱毛hairremoval小腿脱毛两侧/膝盖以下·양쪽무릎아래₩199,0001次₩199,000">
+
+<button aria-controls="details-hair-removal-4" aria-expanded="false" class="price-card__button" type="button">
+<span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>小腿脱毛</span></span><span class="price-card__desc">两侧 / 膝盖以下 · 양쪽 무릎 아래</span></span><span class="price-card__price"><span>₩199,000</span></span></span>
+<span class="price-card__expand"><span>查看详细价格</span><span aria-hidden="true" class="price-card__chevron"></span></span>
+</button><div class="price-card__details" id="details-hair-removal-4"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>规格 / 项目</th><th>价格</th></tr></thead><tbody><tr><td>1次</td><td>₩199,000</td></tr></tbody></table><p class="price-card__note">点击这里添加备注</p></div></div></div></article></div>
+
+</section></main>
+<section class="empty-state" hidden="" id="emptyState">
+<div class="empty-state__icon" id="emptyIcon">⌕</div>
+<h2 id="emptyTitle">未找到相关项目</h2>
+<p id="emptyText">换个关键词或切换到“全部”试试。</p>
+<button class="primary-button" id="resetFilters" type="button">查看全部项目</button>
+</section>
+<footer class="footer">
+<p id="footerNote">价格单位：韩元（₩） · PDF 初步整理版本，请以院方最终确认价格为准</p>
+<p class="footer__small" id="footerSmall">右下角进入编辑：可直接修改、新建大标题、新建小框、复制、移动、删除和新增详细价格行。</p>
+</footer>
+</div>
+<button aria-label="返回顶部" class="back-to-top" id="backToTop" type="button">↑</button>
+<script>
+window.PRICE_SITE_CONFIG = {
+  "title": "医美施术价格表",
+  "metaDescription": "中韩医美施术项目与价格一览，可搜索、分类查看并展开详细价格。",
+  "eyebrow": "26.06.23 · 中文（简体）",
+  "brand": "医美施术价格表",
+  "subtitle": "中韩医美施术项目与价格一览",
+  "searchPlaceholder": "搜索项目、设备、品牌或部位",
+  "allLabel": "全部",
+  "resultSuffix": "个项目",
+  "collapseAllLabel": "收起全部",
+  "detailLabel": "查看详细价格",
+  "fixedPriceLabel": "固定价格",
+  "fromLabel": "起",
+  "itemCountSuffix": "项",
+  "sectionPrefix": "✦",
+  "emptyIcon": "⌕",
+  "emptyTitle": "未找到相关项目",
+  "emptyText": "换个关键词或切换到“全部”试试。",
+  "resetLabel": "查看全部项目",
+  "footer": "价格单位：韩元（₩） · PDF 初步整理版本，请以院方最终确认价格为准",
+  "footerSmall": "右下角进入编辑：可直接修改、新建大标题、新建小框、复制、移动、删除和新增详细价格行。",
+  "backToTopLabel": "返回顶部"
+};
+
+window.PRICE_CATEGORIES = [
+  {
+    "id": "pigment-laser",
+    "name": "色素血管激光",
+    "title": "色素 · 血管 · 洗纹",
+    "kicker": "Pigment & Vascular Laser",
+    "notice": "根据上传 PDF（页面标注 26.06.23）初步归类；价格、次数与中文名称请逐项检查。",
+    "items": [
+      {
+        "name": "Excel-V3 激光",
+        "desc": "엑셀V3",
+        "price": "₩169,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "Excel-V3 激光 1次",
+              "₩169,000"
+            ],
+            [
+              "Excel-V3 + Aileen / Mosaic 激光 1次",
+              "₩189,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "Enlighten 激光 / 皮秒激光",
+        "desc": "인라이튼 / 피코웨이",
+        "price": "₩149,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "Enlighten 激光 1次",
+              "₩149,000"
+            ],
+            [
+              "Enlighten + Aileen / Mosaic 激光 1次",
+              "₩169,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "StarWalker 激光（星极秒）",
+        "desc": "스타워커",
+        "price": "₩129,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "StarWalker 色素激光 1次",
+              "₩129,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "Vbeam 染料激光",
+        "desc": "브이빔",
+        "price": "₩179,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "Vbeam 激光 1次",
+              "₩179,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "洗眉 / 洗眼线",
+        "desc": "아이라인 · 눈썹문신 제거",
+        "price": "₩79,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1次",
+              "₩79,000"
+            ],
+            [
+              "3次",
+              "₩225,000"
+            ],
+            [
+              "5次",
+              "₩365,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "洗唇",
+        "desc": "입술문신 제거",
+        "price": "₩99,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1次",
+              "₩99,000"
+            ],
+            [
+              "3次",
+              "₩289,000"
+            ],
+            [
+              "5次",
+              "₩469,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "洗纹身",
+        "desc": "彩色、黑白同价 · 문신 제거",
+        "price": "₩79,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1元硬币大小",
+              "₩79,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "祛斑针",
+        "desc": "기미주사",
+        "price": "₩20,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "0.5CC",
+              "₩20,000"
+            ],
+            [
+              "1CC",
+              "₩30,000"
+            ],
+            [
+              "全脸 3CC",
+              "₩50,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "点痣",
+        "desc": "점 제거 · 按大小决定",
+        "price": "₩11,000",
+        "from": true,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1个",
+              "₩11,000～30,000"
+            ],
+            [
+              "全脸",
+              "₩200,000～300,000"
+            ]
+          ],
+          "note": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "acne-scar",
+    "name": "痘痘疤痕毛孔",
+    "title": "痘痘 · 疤痕 · 毛孔",
+    "kicker": "Acne & Scar",
+    "items": [
+      {
+        "name": "黄金 PTT",
+        "desc": "골드PTT",
+        "price": "₩450,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "黄金 PTT 1次",
+              "₩450,000"
+            ],
+            [
+              "Acne Package",
+              "₩1,290,000"
+            ]
+          ],
+          "note": "Acne Package：黄金 PTT 3次 + Vbeam 激光 3次 + Agnes 激光 1次。"
+        }
+      },
+      {
+        "name": "Agnes 激光",
+        "desc": "아그네스",
+        "price": "₩5,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "Agnes 激光 1个",
+              "₩5,000"
+            ],
+            [
+              "Agnes 激光 1部位 1次",
+              "₩129,000"
+            ],
+            [
+              "全脸 Agnes 激光 1次",
+              "₩199,000"
+            ],
+            [
+              "Agnes 探头单次",
+              "₩11,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "Agnes 眼下脂肪重排",
+        "desc": "아그네스 눈밑 지방 재배치",
+        "price": "₩299,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "眼下脂肪重排 1次",
+              "₩299,000"
+            ],
+            [
+              "Agnes 探头单次",
+              "₩11,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "汗管瘤 / 扁平疣 / 粟丘疹去除",
+        "desc": "한관종 · 비립종 · 편평사마귀 제거",
+        "price": "₩199,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "全脸 Agnes 激光",
+              "₩199,000"
+            ],
+            [
+              "全脸 CO2 激光",
+              "₩300,000"
+            ],
+            [
+              "局部 / 单部位 CO2 激光",
+              "₩200,000 起"
+            ]
+          ],
+          "note": "局部价格在 PDF 中标注为 200,000 起。"
+        }
+      },
+      {
+        "name": "飞梭 Fraxel 激光",
+        "desc": "프락셀",
+        "price": "₩109,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1次",
+              "₩109,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "再希斯 Intracel 激光",
+        "desc": "인트라셀",
+        "price": "₩129,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "Intracel 激光 1次",
+              "₩129,000"
+            ],
+            [
+              "探头",
+              "₩33,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "Fraxel + Intracel",
+        "desc": "프락셀 + 인트라셀",
+        "price": "₩199,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "Fraxel + Intracel 1次",
+              "₩199,000"
+            ],
+            [
+              "Intracel 探头",
+              "₩33,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "点涂法 Dotpeel",
+        "desc": "도트필 · 全脸",
+        "price": "₩300,000",
+        "from": false
+      },
+      {
+        "name": "黑曜双波微针 Sylfirm",
+        "desc": "실펌",
+        "price": "₩249,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "Sylfirm 1次",
+              "₩249,000"
+            ],
+            [
+              "探头",
+              "₩33,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "黄金微针 Potenza",
+        "desc": "포텐자",
+        "price": "₩169,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "黄金微针 1次",
+              "₩169,000"
+            ],
+            [
+              "黄金微针探头单颗",
+              "₩44,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "针清护理",
+        "desc": "압출",
+        "price": "₩5,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1～5个",
+              "₩5,000"
+            ],
+            [
+              "全脸针清（不施术激光）",
+              "₩50,000"
+            ],
+            [
+              "消炎针",
+              "₩11,000～30,000"
+            ]
+          ],
+          "note": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "regeneration",
+    "name": "水光胶原再生",
+    "title": "水光 · 胶原 · 再生",
+    "kicker": "Skin Booster & Collagen",
+    "items": [
+      {
+        "name": "外泌体 CELL / ASCE",
+        "desc": "셀 / ASCE 엑소좀",
+        "price": "₩129,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "3CC",
+              "₩129,000"
+            ],
+            [
+              "6CC",
+              "₩258,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "Juvelook（可配皮下分离术）",
+        "desc": "쥬베룩 + 서브시전",
+        "price": "₩110,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "Juvelook 2CC 1次",
+              "₩240,000"
+            ],
+            [
+              "Juvelook 4CC 1次",
+              "₩480,000"
+            ],
+            [
+              "Juvelook 1CC 单条颈纹",
+              "₩110,000"
+            ],
+            [
+              "德玛莎机打探头费",
+              "₩33,000"
+            ]
+          ],
+          "note": "皮下分离术按需选择；德玛莎机打需另加探头费。"
+        }
+      },
+      {
+        "name": "丽珠兰 Rejuran",
+        "desc": "리쥬란",
+        "price": "₩120,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "黑盒 2CC",
+              "₩240,000"
+            ],
+            [
+              "眼部丽珠兰 1CC",
+              "₩120,000"
+            ],
+            [
+              "红盒 HB 1CC",
+              "₩150,000"
+            ],
+            [
+              "无痛丽珠兰 6CC + Double Tight",
+              "₩690,000"
+            ],
+            [
+              "德玛莎注射探头费",
+              "₩33,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "Re20 胶原蛋白",
+        "desc": "리투오 · 5CC",
+        "price": "₩800,000",
+        "from": false
+      },
+      {
+        "name": "眼部 Re20 胶原蛋白",
+        "desc": "리투오 아이 · 5CC",
+        "price": "₩800,000",
+        "from": false
+      },
+      {
+        "name": "Retizen 胶原蛋白",
+        "desc": "레티젠 · 2CC",
+        "price": "₩590,000",
+        "from": false
+      },
+      {
+        "name": "Dermacindella 水光针（PN）",
+        "desc": "더마신데렐라",
+        "price": "₩77,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1CC",
+              "₩77,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "三文鱼水光（手打）",
+        "desc": "연어주사 · PDRN",
+        "price": "₩66,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "PDRN 2CC",
+              "₩66,000"
+            ],
+            [
+              "PDRN 4CC",
+              "₩129,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "艾塑菲 Aesthefill",
+        "desc": "에스테필 · 胶原蛋白",
+        "price": "₩449,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "10CC 1次（1瓶）",
+              "₩449,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "塑妍萃 SCULTRA",
+        "desc": "스컬트라",
+        "price": "₩750,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1瓶",
+              "₩750,000"
+            ],
+            [
+              "3瓶",
+              "₩2,090,000"
+            ],
+            [
+              "臀部 1次",
+              "₩7,500,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "Ultracol 胶原蛋白",
+        "desc": "울트라콜",
+        "price": "₩690,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "Ultracol 100 · 1瓶",
+              "₩690,000"
+            ],
+            [
+              "Ultracol 200 · 1瓶",
+              "₩690,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "乔雅登长效水光 SKINVIVE",
+        "desc": "스킨바이브",
+        "price": "₩270,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1CC",
+              "₩270,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "德玛莎水光针",
+        "desc": "더마샤인 물광주사",
+        "price": "₩99,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "水光针 1次",
+              "₩99,000"
+            ],
+            [
+              "水光肉毒 1次",
+              "₩129,000"
+            ],
+            [
+              "追加 CRYO 镇静管理",
+              "₩22,000"
+            ],
+            [
+              "德玛莎探头费",
+              "₩33,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "Double Tite 黄金微针",
+        "desc": "더블타이트",
+        "price": "₩129,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "全脸水光针",
+              "₩129,000"
+            ],
+            [
+              "全脸水光肉毒",
+              "₩149,000"
+            ],
+            [
+              "Double Tite 探头费",
+              "₩44,000"
+            ]
+          ],
+          "note": "追加 Juvelook 或丽珠兰时，与水光 / 水光肉毒复配后施术。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "skin-care",
+    "name": "皮肤管理",
+    "title": "皮肤管理 · 镇静 · 焕肤",
+    "kicker": "Skin Care",
+    "items": [
+      {
+        "name": "LDM 水滴",
+        "desc": "LDM 6分钟",
+        "price": "₩77,000",
+        "from": false
+      },
+      {
+        "name": "软膜追加",
+        "desc": "모델링팩 추가 · 1次",
+        "price": "₩7,700",
+        "from": false
+      },
+      {
+        "name": "CRYO 镇定管理",
+        "desc": "크라이오 관리 · 1次",
+        "price": "₩49,000",
+        "from": false
+      },
+      {
+        "name": "基础皮肤管理",
+        "desc": "피부관리",
+        "price": "₩77,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "小气泡 Aquapeel 1次",
+              "₩77,000"
+            ],
+            [
+              "Affinite 1次",
+              "₩99,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "LALApeel 焕肤",
+        "desc": "라라필",
+        "price": "₩77,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1次",
+              "₩77,000"
+            ],
+            [
+              "3次",
+              "₩195,000"
+            ],
+            [
+              "5次",
+              "₩300,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "AirJet",
+        "desc": "에어젯 · 含 Healite 150发",
+        "price": "₩249,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "AirJet 1次 + Healite 150发",
+              "₩249,000"
+            ]
+          ],
+          "note": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "lifting",
+    "name": "提升紧致",
+    "title": "提升 · 紧致 · 射频",
+    "kicker": "Lifting & Tightening",
+    "items": [
+      {
+        "name": "韩版超声刀 LinearFirm",
+        "desc": "리니어펌",
+        "price": "₩35,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "100发",
+              "₩35,000"
+            ],
+            [
+              "300发",
+              "₩99,000"
+            ],
+            [
+              "500发",
+              "₩149,000"
+            ],
+            [
+              "1000发",
+              "₩269,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "钻石超塑 InMode",
+        "desc": "인모드 · 脸部 FX / Forma",
+        "price": "₩99,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "FX / Forma 10分钟",
+              "₩99,000"
+            ],
+            [
+              "FX / Forma 15分钟",
+              "₩149,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "韩版超声刀 Shurink",
+        "desc": "슈링크 / 슈링크 유니버스",
+        "price": "₩29,700",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "一代 100发",
+              "₩29,700"
+            ],
+            [
+              "一代 300发",
+              "₩89,000"
+            ],
+            [
+              "二代 100发",
+              "₩55,000"
+            ],
+            [
+              "二代 300发",
+              "₩159,000"
+            ],
+            [
+              "二代 600发",
+              "₩319,000"
+            ],
+            [
+              "二代 900发",
+              "₩469,000"
+            ]
+          ],
+          "note": "PDF 中二代 600发、900发后面的韩文发数标注疑似错位，中文金额已照录。"
+        }
+      },
+      {
+        "name": "韩版超声刀 Doublo",
+        "desc": "더블로",
+        "price": "₩169,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "300发",
+              "₩169,000"
+            ],
+            [
+              "400发",
+              "₩225,200"
+            ],
+            [
+              "500发",
+              "₩281,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "韩版热玛吉 Thefect",
+        "desc": "써팩트",
+        "price": "₩149,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1次",
+              "₩389,000"
+            ],
+            [
+              "3次",
+              "₩949,000"
+            ],
+            [
+              "5次",
+              "₩1,499,000"
+            ],
+            [
+              "Fractional Tip 100发",
+              "₩149,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "韩版热玛吉 Oligio",
+        "desc": "올리지오",
+        "price": "₩109,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "100发",
+              "₩109,000"
+            ],
+            [
+              "300发",
+              "₩319,000"
+            ],
+            [
+              "600发",
+              "₩599,000"
+            ],
+            [
+              "900发",
+              "₩990,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "黄金椿 Volnewmer",
+        "desc": "볼뉴머 · 韩版热玛吉",
+        "price": "₩158,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "100发",
+              "₩158,000"
+            ],
+            [
+              "300发",
+              "₩470,000"
+            ],
+            [
+              "600发",
+              "₩890,000"
+            ],
+            [
+              "900发",
+              "₩990,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "美版超声刀 1代",
+        "desc": "울세라",
+        "price": "₩280,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "100发",
+              "₩280,000"
+            ],
+            [
+              "300发",
+              "₩840,000"
+            ],
+            [
+              "600发",
+              "₩1,680,000"
+            ],
+            [
+              "900发",
+              "₩2,520,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "美版超声刀 2代",
+        "desc": "울세라피 프라임",
+        "price": "₩400,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "100发",
+              "₩400,000"
+            ],
+            [
+              "300发",
+              "₩1,200,000"
+            ],
+            [
+              "600发",
+              "₩2,400,000"
+            ],
+            [
+              "900发",
+              "₩3,600,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "美版热玛吉 Thermage FLX",
+        "desc": "써마지",
+        "price": "₩990,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "FLX 600发",
+              "₩1,990,000"
+            ],
+            [
+              "FLX 900发",
+              "₩2,690,000"
+            ],
+            [
+              "眼部 225发",
+              "₩990,000"
+            ],
+            [
+              "眼部 450发",
+              "₩1,890,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "Xerf 韩版双射频热玛吉",
+        "desc": "세르프",
+        "price": "₩1,290,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "300发",
+              "₩1,290,000"
+            ],
+            [
+              "600发",
+              "₩1,890,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "ONDA 提升",
+        "desc": "온다 · 脸部",
+        "price": "₩69,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "脸部 10KJ",
+              "₩69,000"
+            ],
+            [
+              "下颌缘 60KJ",
+              "₩409,000"
+            ],
+            [
+              "全脸 100KJ（15分钟）",
+              "₩599,000"
+            ]
+          ],
+          "note": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "body-contour",
+    "name": "身体塑形溶脂",
+    "title": "身体塑形 · 溶脂",
+    "kicker": "Body Contouring",
+    "items": [
+      {
+        "name": "身体 ONDA",
+        "desc": "바디온다 · 腹部 / 手臂",
+        "price": "₩699,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "100KJ",
+              "₩699,000"
+            ],
+            [
+              "300KJ",
+              "₩1,999,000"
+            ],
+            [
+              "500KJ",
+              "₩3,300,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "身体钻石超塑",
+        "desc": "바디 인모드",
+        "price": "₩199,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "15分钟",
+              "₩199,000"
+            ],
+            [
+              "30分钟",
+              "₩349,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "Scizer 身体超声刀",
+        "desc": "사이저",
+        "price": "₩499,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "90发",
+              "₩499,000"
+            ],
+            [
+              "150发",
+              "₩999,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "优飞塑 Ulfit 身体超声刀",
+        "desc": "울핏",
+        "price": "₩399,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "600发",
+              "₩399,000"
+            ],
+            [
+              "1200发",
+              "₩759,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "冷冻溶脂 MiCool",
+        "desc": "미쿨",
+        "price": "₩59,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1片",
+              "₩59,000"
+            ],
+            [
+              "6片",
+              "₩349,000"
+            ],
+            [
+              "8片",
+              "₩462,000"
+            ]
+          ],
+          "note": "PDF 韩文栏对后两档分别标注 8片、10片，与中文数量不一致，需复核。"
+        }
+      },
+      {
+        "name": "溶脂针 Violet",
+        "desc": "브이올렛",
+        "price": "₩208,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "2CC 1次",
+              "₩208,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "面部溶脂针 Bella choline",
+        "desc": "2CC · 1 vial",
+        "price": "₩150,000",
+        "from": false
+      },
+      {
+        "name": "身体溶脂针",
+        "desc": "뉴비쥬 · 1 vial 2CC",
+        "price": "₩299,000",
+        "from": false
+      }
+    ]
+  },
+  {
+    "id": "botox",
+    "name": "肉毒素",
+    "title": "肉毒素",
+    "kicker": "Botox",
+    "items": [
+      {
+        "name": "韩国产肉毒 Hitox",
+        "desc": "국산 보톡스 · 하이톡스",
+        "price": "₩60,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1个部位",
+              "₩60,000"
+            ],
+            [
+              "2个部位",
+              "₩100,000"
+            ],
+            [
+              "瘦脸针 / 唾液腺",
+              "₩99,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "韩国产肉毒 Coretox",
+        "desc": "코어톡스",
+        "price": "₩80,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1个部位",
+              "₩80,000"
+            ],
+            [
+              "2个部位",
+              "₩150,000"
+            ],
+            [
+              "瘦脸针 / 唾液腺",
+              "₩130,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "西马 Xeomin（德国）",
+        "desc": "제오민",
+        "price": "₩110,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1个部位",
+              "₩110,000"
+            ],
+            [
+              "2个部位",
+              "₩180,000"
+            ],
+            [
+              "瘦脸针 / 唾液腺",
+              "₩160,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "保妥适 Allergan（美国）",
+        "desc": "엘러간",
+        "price": "₩160,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1个部位",
+              "₩160,000"
+            ],
+            [
+              "瘦脸针 / 唾液腺",
+              "₩190,000"
+            ],
+            [
+              "1瓶（50U）",
+              "₩260,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "瘦肩针 / 瘦腿针",
+        "desc": "승모근 · 종아리 보톡스",
+        "price": "₩110,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "德国西马 100U",
+              "₩260,000"
+            ],
+            [
+              "韩国产 Coretox 100U",
+              "₩230,000"
+            ],
+            [
+              "韩国产 Hitox 100U",
+              "₩110,000"
+            ],
+            [
+              "韩国产 Hitox 200U",
+              "₩165,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "水光肉毒",
+        "desc": "스킨보톡스",
+        "price": "₩165,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "韩国产 Hitox",
+              "₩165,000"
+            ],
+            [
+              "韩国产 Coretox",
+              "₩199,000"
+            ],
+            [
+              "德国西马 Xeomin",
+              "₩250,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "下颌缘提升肉毒",
+        "desc": "턱라인 리프팅 보톡스",
+        "price": "₩250,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "韩国产肉毒",
+              "₩250,000"
+            ],
+            [
+              "德国西马 Xeomin",
+              "₩300,000"
+            ],
+            [
+              "美国保妥适 Allergan",
+              "₩330,000"
+            ]
+          ],
+          "note": "PDF 第三行韩文品牌尾注疑似误写为 Xeomin，中文品牌按保妥适录入。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "filler",
+    "name": "玻尿酸填充",
+    "title": "玻尿酸 · 填充",
+    "kicker": "Filler",
+    "items": [
+      {
+        "name": "韩国产玻尿酸",
+        "desc": "국산 필러",
+        "price": "₩89,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "Atiere 1CC",
+              "₩89,000"
+            ],
+            [
+              "Rejuviel 1CC",
+              "₩169,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "眉弓玻尿酸",
+        "desc": "눈썹뼈 필러",
+        "price": "₩159,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "韩国产 1CC",
+              "₩159,000"
+            ],
+            [
+              "Rejuviel 1CC",
+              "₩219,000"
+            ],
+            [
+              "乔雅登 / 瑞蓝 1CC",
+              "₩390,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "精灵耳填充",
+        "desc": "귀필러",
+        "price": "₩129,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "韩国产玻尿酸 1CC",
+              "₩129,000"
+            ],
+            [
+              "韩国产玻尿酸套餐（PDF 未标数量）",
+              "₩690,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "卧蚕 / 唇部玻尿酸",
+        "desc": "국산 애교 · 입술 필러",
+        "price": "₩100,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "卧蚕填充 1CC",
+              "₩100,000"
+            ],
+            [
+              "唇部玻尿酸",
+              "₩219,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "直角肩玻尿酸",
+        "desc": "어깨 필러",
+        "price": "₩129,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "Atiere 1CC",
+              "₩129,000"
+            ],
+            [
+              "Atiere 套餐（PDF 未标数量）",
+              "₩2,000,000"
+            ],
+            [
+              "Rejuviel 1CC",
+              "₩199,000"
+            ],
+            [
+              "Rejuviel 套餐（PDF 未标数量）",
+              "₩3,500,000"
+            ],
+            [
+              "Juvederm 1CC",
+              "₩390,000"
+            ],
+            [
+              "Juvederm 套餐（PDF 未标数量）",
+              "₩7,500,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "骨盆玻尿酸",
+        "desc": "골반 필러",
+        "price": "₩3,990,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "Atiere",
+              "₩3,990,000"
+            ],
+            [
+              "Rejuviel",
+              "₩5,900,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "进口填充剂单价",
+        "desc": "1CC / 1.5CC",
+        "price": "₩390,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "乔雅登 Juvederm 1CC",
+              "₩390,000"
+            ],
+            [
+              "瑞蓝 Restylane 1CC",
+              "₩390,000"
+            ],
+            [
+              "保柔提 Belotero 1CC",
+              "₩390,000"
+            ],
+            [
+              "瑞德喜 Radiesse 1.5CC",
+              "₩690,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "玻尿酸溶解酶",
+        "desc": "필러 녹이는 주사",
+        "price": "₩110,000",
+        "from": false
+      }
+    ]
+  },
+  {
+    "id": "thread-lifting",
+    "name": "线雕",
+    "title": "线雕隆鼻 · 线雕提升",
+    "kicker": "Thread Lifting",
+    "items": [
+      {
+        "name": "线雕隆鼻 Hiko（一般）",
+        "desc": "일반 하이코",
+        "price": "₩95,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "3根",
+              "₩95,000"
+            ],
+            [
+              "4根",
+              "₩125,000"
+            ],
+            [
+              "4根以上追加 1根",
+              "₩50,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "线雕隆鼻 Hiko PCL / PDO",
+        "desc": "하이코 PCL / PDO",
+        "price": "₩129,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "3根",
+              "₩129,000"
+            ],
+            [
+              "4根",
+              "₩169,000"
+            ],
+            [
+              "4根以上追加 1根",
+              "₩50,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "线雕隆鼻 LSCO",
+        "desc": "엘스코",
+        "price": "₩99,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1根",
+              "₩99,000"
+            ],
+            [
+              "5根",
+              "₩469,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "线雕隆鼻时追加玻尿酸",
+        "desc": "콧대 필러 추가",
+        "price": "₩50,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "韩国产玻尿酸（The Chaeum）",
+              "₩50,000"
+            ],
+            [
+              "乔雅登 Juvederm",
+              "₩299,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "线雕提升",
+        "desc": "실리프팅",
+        "price": "₩1,990,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "致美丽特色面中提升",
+              "₩1,990,000"
+            ],
+            [
+              "致美丽特色 V-line 提升",
+              "₩1,990,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "Jamber 弹簧填充线",
+        "desc": "잼버실 · 볼륨실",
+        "price": "₩264,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "4根",
+              "₩264,000"
+            ]
+          ],
+          "note": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "hair-removal",
+    "name": "脱毛",
+    "title": "激光脱毛",
+    "kicker": "Hair Removal",
+    "items": [
+      {
+        "name": "面部脱毛",
+        "desc": "얼굴 제모",
+        "price": "₩149,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1次",
+              "₩149,000"
+            ],
+            [
+              "3次",
+              "₩419,000"
+            ],
+            [
+              "5次",
+              "₩645,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "腋下脱毛",
+        "desc": "겨드랑이 제모",
+        "price": "₩25,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1次",
+              "₩25,000"
+            ],
+            [
+              "5次",
+              "₩88,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "胡须脱毛",
+        "desc": "수염 제모",
+        "price": "₩88,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1次",
+              "₩88,000"
+            ],
+            [
+              "3次",
+              "₩231,000"
+            ],
+            [
+              "5次",
+              "₩330,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "前臂脱毛",
+        "desc": "两侧 / 双手臂下半部 · 양쪽 팔 하완",
+        "price": "₩150,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1次",
+              "₩150,000"
+            ]
+          ],
+          "note": ""
+        }
+      },
+      {
+        "name": "小腿脱毛",
+        "desc": "两侧 / 膝盖以下 · 양쪽 무릎 아래",
+        "price": "₩199,000",
+        "from": false,
+        "details": {
+          "columns": [
+            "规格 / 项目",
+            "价格"
+          ],
+          "rows": [
+            [
+              "1次",
+              "₩199,000"
+            ]
+          ],
+          "note": ""
+        }
+      }
+    ]
+  }
+];
+
+</script>
+<script>
+(() => {
+  "use strict";
+  const clone = value => JSON.parse(JSON.stringify(value));
+  const defaults = {
+    title: "价格一览", metaDescription: "项目价格一览", eyebrow: "PRICE LIST", brand: "PRICE LIST",
+    subtitle: "价格以页面说明为准", searchPlaceholder: "搜索项目、品牌或部位", allLabel: "全部",
+    resultSuffix: "个项目", collapseAllLabel: "收起全部", detailLabel: "查看详细价格",
+    fixedPriceLabel: "固定价格", fromLabel: "起", itemCountSuffix: "项", sectionPrefix: "✦",
+    emptyIcon: "⌕", emptyTitle: "未找到相关项目", emptyText: "换个关键词再试试。",
+    resetLabel: "查看全部项目", footer: "价格单位以页面说明为准", footerSmall: "",
+    backToTopLabel: "返回顶部"
+  };
+  const originalData = {
+    config: Object.assign({}, defaults, clone(window.PRICE_SITE_CONFIG || {})),
+    categories: clone(Array.isArray(window.PRICE_CATEGORIES) ? window.PRICE_CATEGORIES : [])
+  };
+  let config = clone(originalData.config);
+  let categories = clone(originalData.categories);
+  const state = { category: "all", query: "" };
+  const $ = selector => document.querySelector(selector);
+  const catalog = $("#catalog"), nav = $("#categoryNav"), searchInput = $("#searchInput"),
+    clearSearch = $("#clearSearch"), resultCount = $("#resultCount"), emptyState = $("#emptyState"),
+    collapseAll = $("#collapseAll"), resetFilters = $("#resetFilters"), backToTop = $("#backToTop");
+  const escapeHTML = value => String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#039;");
+  const normalize = value => String(value ?? "").toLocaleLowerCase().replace(/\s+/g, "");
+  function searchableText(item, category) {
+    const detailText = item.details?.rows?.flat().join(" ") || "";
+    return normalize([category.name, category.title, category.kicker, category.notice, item.name, item.desc, item.price, item.tag, detailText, item.details?.note].join(" "));
+  }
+  function cardHTML(item, category, itemIndex, categoryIndex) {
+    const hasDetails = !!item.details?.rows?.length;
+    const id = `details-${category.id}-${itemIndex}`;
+    const tag = item.tag ? `<span class="price-card__tag">${escapeHTML(item.tag)}</span>` : "";
+    let table = "";
+    if (item.details) {
+      const [left = "项目", right = "价格"] = item.details.columns || [];
+      const rows = (item.details.rows || []).map(row => `<tr><td>${escapeHTML(row?.[0])}</td><td>${escapeHTML(row?.[1])}</td></tr>`).join("");
+      const note = item.details.note ? `<p class="price-card__note">${escapeHTML(item.details.note)}</p>` : "";
+      table = `<div class="price-card__details" id="${escapeHTML(id)}"><div class="price-card__details-inner"><div class="details-pad"><table class="price-table"><thead><tr><th>${escapeHTML(left)}</th><th>${escapeHTML(right)}</th></tr></thead><tbody>${rows}</tbody></table>${note}</div></div></div>`;
+    }
+    const showFrom = item.from === true || (item.from !== false && hasDetails);
+    return `<article class="price-card ${hasDetails ? "" : "no-details"}" data-card data-search="${escapeHTML(searchableText(item, category))}">
+      <button class="price-card__button" type="button" ${hasDetails ? `aria-expanded="false" aria-controls="${escapeHTML(id)}"` : 'aria-disabled="true"'}>
+        <span class="price-card__top"><span class="price-card__text"><span class="price-card__name"><span>${escapeHTML(item.name)}</span>${tag}</span><span class="price-card__desc">${escapeHTML(item.desc || "")}</span></span><span class="price-card__price"><span>${escapeHTML(item.price || "")}</span>${showFrom ? `<small>${escapeHTML(config.fromLabel)}</small>` : ""}</span></span>
+        <span class="price-card__expand"><span>${escapeHTML(hasDetails ? config.detailLabel : config.fixedPriceLabel)}</span><span class="price-card__chevron" aria-hidden="true"></span></span>
+      </button>${table}</article>`;
+  }
+  function sectionHTML(category, categoryIndex) {
+    const count = (category.items || []).length;
+    const kicker = category.kicker || `Chapter ${String(categoryIndex + 1).padStart(2, "0")}`;
+    const notice = category.notice ? `<p class="section__notice">${escapeHTML(category.notice)}</p>` : "";
+    return `<section class="section" data-section="${escapeHTML(category.id)}" id="section-${escapeHTML(category.id)}">
+      <div class="section__head"><div class="section__title-wrap"><p class="section__kicker">${escapeHTML(kicker)}</p><h2 class="section__title"><span>${escapeHTML(config.sectionPrefix)}</span> <span>${escapeHTML(category.title || category.name)}</span></h2>${notice}</div><span class="section__count">${count} ${escapeHTML(config.itemCountSuffix)}</span></div>
+      <div class="card-grid">${(category.items || []).map((item, index) => cardHTML(item, category, index, categoryIndex)).join("")}</div>
+    </section>`;
+  }
+  function updateStaticText() {
+    document.title = config.title || `${config.brand} · 价格一览`;
+    const meta = document.querySelector('meta[name="description"]'); if (meta) meta.content = config.metaDescription || "";
+    $("#brandEyebrow").textContent = config.eyebrow;
+    $("#brandTitle").textContent = config.brand;
+    $("#brandSubtitle").textContent = config.subtitle;
+    searchInput.placeholder = config.searchPlaceholder;
+    collapseAll.textContent = config.collapseAllLabel;
+    $("#emptyIcon").textContent = config.emptyIcon;
+    $("#emptyTitle").textContent = config.emptyTitle;
+    $("#emptyText").textContent = config.emptyText;
+    resetFilters.textContent = config.resetLabel;
+    $("#footerNote").textContent = config.footer;
+    $("#footerSmall").textContent = config.footerSmall;
+    backToTop.setAttribute("aria-label", config.backToTopLabel);
+  }
+  function render() {
+    updateStaticText();
+    nav.innerHTML = [`<button class="category-button is-active" data-category="all" type="button">${escapeHTML(config.allLabel)}</button>`, ...categories.map(category => `<button class="category-button" data-category="${escapeHTML(category.id)}" type="button">${escapeHTML(category.name)}</button>`)].join("");
+    catalog.innerHTML = categories.map(sectionHTML).join("");
+    if (state.category !== "all" && !categories.some(category => category.id === state.category)) state.category = "all";
+    applyFilters();
+  }
+  function applyFilters({ scroll = false } = {}) {
+    const query = normalize(state.query); let total = 0, first = null;
+    document.querySelectorAll("[data-section]").forEach(section => {
+      const categoryMatches = state.category === "all" || state.category === section.dataset.section; let count = 0;
+      section.querySelectorAll("[data-card]").forEach(card => {
+        const visible = categoryMatches && (!query || card.dataset.search.includes(query)); card.hidden = !visible; if (visible) count++;
+      });
+      section.hidden = count === 0;
+      const countEl = section.querySelector(".section__count"); if (countEl) countEl.textContent = `${count} ${config.itemCountSuffix}`;
+      if (count && !first && !section.hidden) first = section; total += count;
+    });
+    resultCount.textContent = `${total} ${config.resultSuffix}`;
+    emptyState.hidden = total !== 0; catalog.hidden = total === 0; clearSearch.hidden = !state.query;
+    document.querySelectorAll("[data-category]").forEach(button => button.classList.toggle("is-active", button.dataset.category === state.category));
+    if (scroll && first) scrollTo({ top: Math.max(0, first.getBoundingClientRect().top + scrollY - 118), behavior: "smooth" });
+  }
+  catalog.addEventListener("click", event => {
+    const button = event.target.closest(".price-card__button"); if (!button) return;
+    const card = button.closest(".price-card"); if (!card || card.classList.contains("no-details")) return;
+    const open = !card.classList.contains("is-open"); card.classList.toggle("is-open", open); button.setAttribute("aria-expanded", String(open));
+  });
+  nav.addEventListener("click", event => {
+    const button = event.target.closest("[data-category]"); if (!button) return;
+    state.category = button.dataset.category; applyFilters({ scroll: true }); button.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+  });
+  searchInput.addEventListener("input", () => { state.query = searchInput.value; applyFilters(); });
+  clearSearch.addEventListener("click", () => { searchInput.value = ""; state.query = ""; searchInput.focus(); applyFilters(); });
+  collapseAll.addEventListener("click", () => document.querySelectorAll(".price-card.is-open").forEach(card => { card.classList.remove("is-open"); card.querySelector(".price-card__button")?.setAttribute("aria-expanded", "false"); }));
+  resetFilters.addEventListener("click", () => { state.category = "all"; state.query = ""; searchInput.value = ""; applyFilters({ scroll: true }); });
+  addEventListener("scroll", () => backToTop.classList.toggle("is-visible", scrollY > 650), { passive: true });
+  backToTop.addEventListener("click", () => scrollTo({ top: 0, behavior: "smooth" }));
+  window.PriceSite = {
+    getData: () => clone({ config, categories }),
+    setData: data => { config = Object.assign({}, defaults, clone(data?.config || {})); categories = clone(Array.isArray(data?.categories) ? data.categories : []); window.PRICE_SITE_CONFIG = config; window.PRICE_CATEGORIES = categories; render(); },
+    resetData: () => { config = clone(originalData.config); categories = clone(originalData.categories); window.PRICE_SITE_CONFIG = config; window.PRICE_CATEGORIES = categories; render(); },
+    getOriginalData: () => clone(originalData),
+    showAll: () => { state.category = "all"; state.query = ""; searchInput.value = ""; applyFilters(); },
+    render
+  };
+  render();
+})();
+
+</script>
+
+<script src="supabase-sync.js"></script></body></html>
